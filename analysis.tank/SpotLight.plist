@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>The path to the matlab executable on your system (change this to be correct0
+Don't mess with this
+This is the datatask file that contains the input information
+Extract the data out of the datatask file in the form of a 3d path series
+The resolution parameter - higher value will lead to a partition into smaller communities.
+Th temporal parameter - higher value will lead to nodes more likely to stay in same cluster
+This module converts the 3d path series to a 3d point series
+This module converts the 3d point series data into a (dense) weighted adjacency matrix</string>
+	<key>String</key>
+	<string>/Applications/Matlab_R2018a.app/bin/matlab
+/Users/ben/Dropbox/GenLouvain-2.1/</string>
+</dict>
+</plist>

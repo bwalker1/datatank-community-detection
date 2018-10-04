@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Attachments</key>
+	<array/>
+	<key>DrawingWindows</key>
+	<array/>
+	<key>MonitorVariables</key>
+	<array>
+		<string>Input Var</string>
+		<string>3D Point Series</string>
+		<string>Entry from 3D Point Series</string>
+		<string>Network Adjacency</string>
+		<string>Partition</string>
+	</array>
+	<key>Time</key>
+	<dict>
+		<key>CurrentTime</key>
+		<dict>
+			<key>CurrentValue</key>
+			<real>0.0</real>
+			<key>MaxValue</key>
+			<real>2</real>
+			<key>MinValue</key>
+			<real>0.0</real>
+			<key>String</key>
+			<string>0</string>
+		</dict>
+		<key>Duration</key>
+		<string>10</string>
+		<key>Include</key>
+		<string>0</string>
+		<key>Loop</key>
+		<string>Off</string>
+		<key>TimeHint</key>
+		<real>0.0</real>
+		<key>TimeStep</key>
+		<string>1.0</string>
+		<key>TimeStepSwitch</key>
+		<string>Off</string>
+		<key>ToggleMax</key>
+		<string>1</string>
+		<key>ToggleMin</key>
+		<string>0</string>
+		<key>WindowPos</key>
+		<array>
+			<real>874</real>
+			<real>83</real>
+			<real>377</real>
+			<real>172</real>
+		</array>
+		<key>ZoomMax</key>
+		<string>0</string>
+		<key>ZoomMin</key>
+		<string>0</string>
+		<key>ZoomSlider</key>
+		<dict>
+			<key>CurrentValue</key>
+			<real>0.0</real>
+			<key>MaxValue</key>
+			<real>0.0</real>
+			<key>MinValue</key>
+			<real>0.0</real>
+			<key>String</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>Variables</key>
+	<array>
+		<dict>
+			<key>ScriptName</key>
+			<string>Text-4.rtfd</string>
+			<key>TextHeight</key>
+			<real>140</real>
+			<key>VariableName</key>
+			<string>DAText - 3</string>
+			<key>VariableType</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Configuration</string>
+			<key>VariableName</key>
+			<string>DACollapser - 4</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Closed</string>
+			<key>Title</key>
+			<string>Matlab setup</string>
+			<key>VariableName</key>
+			<string>DACollapser - 5</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>The path to the matlab executable on your system (change this to be correct0</string>
+			<key>VariableName</key>
+			<string>DAComment - 5</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Text</key>
+				<string>/Applications/Matlab_R2018a.app/bin/matlab</string>
+			</dict>
+			<key>Selection</key>
+			<string>Specify</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>matlabpath</string>
+			<key>VariableType</key>
+			<string>String</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>Don't mess with this</string>
+			<key>VariableName</key>
+			<string>DAComment - 6</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Closed</string>
+			<key>Title</key>
+			<string>Gen Louvain code</string>
+			<key>VariableName</key>
+			<string>DACollapser - 7</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>FileName</key>
+				<string>GenLouvain-2.1/DTWrapper4.m</string>
+			</dict>
+			<key>Selection</key>
+			<string>Single File</string>
+			<key>VariableName</key>
+			<string>DT Wrapper Script</string>
+			<key>VariableType</key>
+			<string>FileName</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Extension</key>
+				<string>Off</string>
+				<key>File</key>
+				<dict>
+					<key>Selected</key>
+					<string>DT Wrapper Script</string>
+				</dict>
+				<key>Path</key>
+				<string>On</string>
+			</dict>
+			<key>Selection</key>
+			<string>From File Name</string>
+			<key>VariableName</key>
+			<string>genlouvainpath</string>
+			<key>VariableType</key>
+			<string>String</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 7 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 5 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Closed</string>
+			<key>Title</key>
+			<string>Input</string>
+			<key>VariableName</key>
+			<string>DACollapser - 1</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>This is the datatask file that contains the input information</string>
+			<key>VariableName</key>
+			<string>DAComment - 1</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>FileName</key>
+				<string>Output.mat</string>
+				<key>Result</key>
+				<string>~/Downloads/V7_3Runs_0Condensins_0Histones_dt0.5ns.dtask</string>
+				<key>ShouldPropagate</key>
+				<string>On</string>
+			</dict>
+			<key>Selection</key>
+			<string>From Parameter Run</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Input DataTask</string>
+			<key>VariableType</key>
+			<string>FileName</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>Extract the data out of the datatask file in the form of a 3d path series</string>
+			<key>VariableName</key>
+			<string>DAComment - 2</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Entries</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>ExecutionErrors</string>
+						<key>Type</key>
+						<string>StringList</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>ExecutionTime</string>
+						<key>Type</key>
+						<string>Real Number</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>Var</string>
+						<key>Series</key>
+						<string>Path3D</string>
+						<key>Type</key>
+						<string>Series</string>
+					</dict>
+				</array>
+				<key>File</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string></string>
+					</dict>
+					<key>Selected</key>
+					<string>Input DataTask</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Data File</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Input Data Group</string>
+			<key>VariableType</key>
+			<string>Group</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Group</key>
+				<dict>
+					<key>Selected</key>
+					<string>Input Data Group</string>
+				</dict>
+				<key>Name</key>
+				<dict>
+					<key>Title</key>
+					<string>Var</string>
+					<key>Token</key>
+					<string>Var</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Group</string>
+			<key>VariableName</key>
+			<string>Input Var</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 1 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Parameters</string>
+			<key>VariableName</key>
+			<string>DACollapser - 6</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>The resolution parameter - higher value will lead to a partition into smaller communities.</string>
+			<key>VariableName</key>
+			<string>DAComment - 7</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>5</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>VariableName</key>
+			<string>Gamma</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>Th temporal parameter - higher value will lead to nodes more likely to stay in same cluster</string>
+			<key>VariableName</key>
+			<string>DAComment - 8</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>1</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>VariableName</key>
+			<string>Omega</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 6 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 4 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Closed</string>
+			<key>Title</key>
+			<string>Input Processing</string>
+			<key>VariableName</key>
+			<string>DACollapser - 2</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>ScriptName</key>
+			<string>Text-1.rtfd</string>
+			<key>TextHeight</key>
+			<real>28</real>
+			<key>VariableName</key>
+			<string>DAText - 1</string>
+			<key>VariableType</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>This module converts the 3d path series to a 3d point series</string>
+			<key>VariableName</key>
+			<string>DAComment - 3</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Information</key>
+				<array>
+					<dict>
+						<key>Input</key>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>3D Path</string>
+								<key>Type</key>
+								<string>Path3D</string>
+							</dict>
+						</array>
+						<key>Name</key>
+						<string>3D Point Collection</string>
+					</dict>
+				</array>
+				<key>OutputVariable</key>
+				<string>3D Point Collection</string>
+				<key>Script</key>
+				<string>path to points</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>3D Path</string>
+						<key>Type</key>
+						<string>Path3D</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Input Var</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Script On Series</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>3D Point Series</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Series</key>
+				<dict>
+					<key>Selected</key>
+					<string>3D Point Series</string>
+				</dict>
+				<key>Time</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Series</string>
+			<key>VariableName</key>
+			<string>Entry from 3D Point Series</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>This module converts the 3d point series data into a (dense) weighted adjacency matrix</string>
+			<key>VariableName</key>
+			<string>DAComment - 4</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/NetworkAdjacency</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>NetworkAdjacency/NetworkAdjacency.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>bins</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>10</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>width</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>10</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>threshold</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1e-7</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>points</string>
+						<key>SeriesType</key>
+						<string>PointCollection3D</string>
+						<key>Type</key>
+						<string>Series</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>3D Point Series</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>scale</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1e-7</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>start</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>100</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Network Adjacency</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 2 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Community Detection</string>
+			<key>VariableName</key>
+			<string>DACollapser - 3</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>ScriptName</key>
+			<string>Text-3.rtfd</string>
+			<key>TextHeight</key>
+			<real>14</real>
+			<key>VariableName</key>
+			<string>DAText - 2</string>
+			<key>VariableType</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/GeneratePartitions</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.mat</string>
+				<key>Output</key>
+				<string>Output.mat</string>
+				<key>Project</key>
+				<string>GeneratePartitions/GeneratePartitions.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>adjacency</string>
+						<key>Type</key>
+						<string>Array</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Network Adjacency</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>gamma</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>5</string>
+							</dict>
+							<key>Selected</key>
+							<string>Gamma</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>omega</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>Selected</key>
+							<string>Omega</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>matlabpath</string>
+						<key>Type</key>
+						<string>String</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>String</key>
+								<string>/Applications/Matlab_R2018a.app/bin/matlab</string>
+							</dict>
+							<key>Selected</key>
+							<string>matlabpath</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>genlouvainpath</string>
+						<key>Type</key>
+						<string>String</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>String</key>
+								<string>/Users/ben/Dropbox/GenLouvain-2.1/</string>
+							</dict>
+							<key>Selected</key>
+							<string>genlouvainpath</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Partition</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 3 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Metrics</string>
+			<key>VariableName</key>
+			<string>DACollapser - 8</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 8 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+	</array>
+	<key>WindowPosition</key>
+	<array>
+		<real>26</real>
+		<real>95</real>
+		<real>941</real>
+		<real>682</real>
+	</array>
+</dict>
+</plist>

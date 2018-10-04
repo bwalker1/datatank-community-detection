@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Attachments</key>
+	<array/>
+	<key>DrawingWindows</key>
+	<array/>
+	<key>MonitorVariables</key>
+	<array>
+		<string>3D Path</string>
+	</array>
+	<key>Time</key>
+	<dict>
+		<key>CurrentTime</key>
+		<dict>
+			<key>CurrentValue</key>
+			<real>999.69999998327</real>
+			<key>MaxValue</key>
+			<real>999.99999998326507</real>
+			<key>MinValue</key>
+			<real>0.0</real>
+			<key>String</key>
+			<string>999.69999998327</string>
+		</dict>
+		<key>Duration</key>
+		<string>10</string>
+		<key>Include</key>
+		<string>0</string>
+		<key>Loop</key>
+		<string>Off</string>
+		<key>TimeHint</key>
+		<real>999.69999998327</real>
+		<key>TimeStep</key>
+		<string>1.0</string>
+		<key>TimeStepSwitch</key>
+		<string>Off</string>
+		<key>ToggleMax</key>
+		<string>1</string>
+		<key>ToggleMin</key>
+		<string>0</string>
+		<key>WindowPos</key>
+		<array>
+			<real>1514</real>
+			<real>83</real>
+			<real>377</real>
+			<real>172</real>
+		</array>
+		<key>ZoomMax</key>
+		<string>0</string>
+		<key>ZoomMin</key>
+		<string>0</string>
+		<key>ZoomSlider</key>
+		<dict>
+			<key>CurrentValue</key>
+			<real>0.0</real>
+			<key>MaxValue</key>
+			<real>0.0</real>
+			<key>MinValue</key>
+			<real>0.0</real>
+			<key>String</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>Variables</key>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Variable</key>
+				<dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>External Input</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>3D Path</string>
+			<key>VariableType</key>
+			<string>Path3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>3D Path</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Variable</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Points on 3D Path</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>1560,1,1920</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Stride</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>List of Numbers</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Index</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<dict>
+					<key>Selected</key>
+					<string>Points on 3D Path</string>
+				</dict>
+				<key>Subscript</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>1,2,3</string>
+					</dict>
+					<key>Selected</key>
+					<string>List of Numbers</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Extract Entries</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>3D Point Collection-2</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>AllInputs</key>
+				<string>On</string>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Points on 3D Path</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>External Output</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>3D Point Collection</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+	</array>
+	<key>WindowPosition</key>
+	<array>
+		<real>331</real>
+		<real>4</real>
+		<real>941</real>
+		<real>682</real>
+	</array>
+</dict>
+</plist>
