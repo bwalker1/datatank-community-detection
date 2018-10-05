@@ -8,7 +8,7 @@ Don't mess with this
 This is the datatask file that contains the input information
 Extract the data out of the datatask file in the form of a 3d path series
 The resolution parameter - higher value will lead to a partition into smaller communities.
-Th temporal parameter - higher value will lead to nodes more likely to stay in same cluster
+The temporal parameter - higher value will lead to nodes more likely to stay in same cluster
 This module converts the 3d path series to a 3d point series
 This module converts the 3d point series data into a (dense) weighted adjacency matrix</string>
 	<key>String</key>

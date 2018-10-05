@@ -70,9 +70,9 @@
 	<array>
 		<dict>
 			<key>ScriptName</key>
-			<string>Text-4.rtfd</string>
+			<string>Text-2.rtfd</string>
 			<key>TextHeight</key>
-			<real>140</real>
+			<real>168</real>
 			<key>VariableName</key>
 			<string>DAText - 3</string>
 			<key>VariableType</key>
@@ -315,6 +315,61 @@
 			<string>CollapserOpen</string>
 		</dict>
 		<dict>
+			<key>ScriptName</key>
+			<string>Text-4.rtfd</string>
+			<key>TextHeight</key>
+			<real>42</real>
+			<key>VariableName</key>
+			<string>DAText - 4</string>
+			<key>VariableType</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>0.1</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>VariableName</key>
+			<string>Start time</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>0.1</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>VariableName</key>
+			<string>Window size</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>1.5</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>VariableName</key>
+			<string>End time</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
 			<key>Comment</key>
 			<string>The resolution parameter - higher value will lead to a partition into smaller communities.</string>
 			<key>VariableName</key>
@@ -339,7 +394,7 @@
 		</dict>
 		<dict>
 			<key>Comment</key>
-			<string>Th temporal parameter - higher value will lead to nodes more likely to stay in same cluster</string>
+			<string>The temporal parameter - higher value will lead to nodes more likely to stay in same cluster</string>
 			<key>VariableName</key>
 			<string>DAComment - 8</string>
 			<key>VariableType</key>
@@ -374,7 +429,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Input Processing</string>
 			<key>VariableName</key>
@@ -808,8 +863,8 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>26</real>
-		<real>95</real>
+		<real>415</real>
+		<real>179</real>
 		<real>941</real>
 		<real>682</real>
 	</array>
