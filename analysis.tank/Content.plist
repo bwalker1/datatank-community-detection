@@ -68,13 +68,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>50</real>
+								<real>136.30000000000001</real>
 								<key>MaxValue</key>
 								<real>180</real>
 								<key>MinValue</key>
 								<real>-180</real>
 								<key>String</key>
-								<string>50</string>
+								<string>136.3</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -104,13 +104,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>20</real>
+								<real>-63.090000000000003</real>
 								<key>MaxValue</key>
 								<real>90</real>
 								<key>MinValue</key>
 								<real>-90</real>
 								<key>String</key>
-								<string>20</string>
+								<string>-63.09</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -119,7 +119,77 @@
 				</array>
 			</dict>
 			<key>CommandContents</key>
-			<array/>
+			<array>
+				<dict>
+					<key>CommandName</key>
+					<string></string>
+					<key>CommandType</key>
+					<string>Point Value Collection</string>
+					<key>Computation</key>
+					<dict>
+						<key>Crop</key>
+						<dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>CropSwitch</key>
+						<string>On</string>
+						<key>CutOff</key>
+						<string>100000</string>
+						<key>Material</key>
+						<integer>0</integer>
+						<key>Maximum</key>
+						<string>700K</string>
+						<key>Points</key>
+						<dict>
+							<key>Selected</key>
+							<string>3D Point Value Collection</string>
+						</dict>
+						<key>Ramp</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Menu</key>
+								<integer>0</integer>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Range</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Range</key>
+								<string>1,20</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Size</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Sparsify</key>
+						<string>On</string>
+						<key>Swap</key>
+						<string>Off</string>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>Drawn</key>
+					<string>Include</string>
+					<key>Status</key>
+					<string>Visible</string>
+					<key>ToggleOpen</key>
+					<string>YES</string>
+				</dict>
+			</array>
 			<key>DrawingHeight</key>
 			<real>192</real>
 			<key>DrawingWindowType</key>
@@ -209,13 +279,13 @@
 			<key>ViewSizeSeparated</key>
 			<string></string>
 			<key>Visible</key>
-			<string>NO</string>
+			<string>YES</string>
 			<key>WindowName</key>
 			<string>3D Space (GL)</string>
 			<key>WindowPos</key>
 			<array>
-				<real>662</real>
-				<real>100</real>
+				<real>580</real>
+				<real>89</real>
 				<real>512</real>
 				<real>407</real>
 			</array>
@@ -223,22 +293,28 @@
 	</array>
 	<key>MonitorVariables</key>
 	<array>
-		<string>3D Point Series</string>
-		<string>Time value of 3D Point Series</string>
-		<string>Entry from Time value of 3D Point Series</string>
+		<string>3D Point series from time value</string>
+		<string>Points on Var</string>
+		<string>start bin</string>
+		<string>bin width</string>
+		<string>which bin</string>
+		<string>number of bins</string>
+		<string>Network Adjacency</string>
+		<string>Partition</string>
+		<string>Current partition</string>
 	</array>
 	<key>Time</key>
 	<dict>
 		<key>CurrentTime</key>
 		<dict>
 			<key>CurrentValue</key>
-			<real>1</real>
+			<real>0.00026000000000157001</real>
 			<key>MaxValue</key>
 			<real>2</real>
 			<key>MinValue</key>
 			<real>0.0</real>
 			<key>String</key>
-			<string>1</string>
+			<string>0.00026000000000157</string>
 		</dict>
 		<key>Duration</key>
 		<string>10</string>
@@ -313,7 +389,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Matlab setup</string>
 			<key>VariableName</key>
@@ -409,7 +485,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Input</string>
 			<key>VariableName</key>
@@ -443,6 +519,60 @@
 			<string>Input DataTask</string>
 			<key>VariableType</key>
 			<string>FileName</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>File</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string></string>
+					</dict>
+					<key>Selected</key>
+					<string>Input DataTask</string>
+				</dict>
+				<key>Time</key>
+				<string>0</string>
+				<key>Type</key>
+				<integer>0</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From File</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Data File</string>
+			<key>VariableType</key>
+			<string>DataFile</string>
+			<key>ViewHeight</key>
+			<real>214</real>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>File</key>
+				<dict>
+					<key>Selected</key>
+					<string>Data File</string>
+				</dict>
+				<key>ReadForBB</key>
+				<string>Off</string>
+				<key>VariableName</key>
+				<dict>
+					<key>Title</key>
+					<string>Var</string>
+					<key>Token</key>
+					<string>Var</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Read</string>
+			<key>VariableName</key>
+			<string>Var</string>
+			<key>VariableType</key>
+			<string>Path3D</string>
 		</dict>
 		<dict>
 			<key>Comment</key>
@@ -485,8 +615,8 @@
 						<key>Text</key>
 						<string></string>
 					</dict>
-					<key>Selected</key>
-					<string>Input DataTask</string>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
 				</dict>
 			</dict>
 			<key>Selection</key>
@@ -517,7 +647,7 @@
 			<key>Selection</key>
 			<string>From Group</string>
 			<key>VariableName</key>
-			<string>Input Var</string>
+			<string>Var series</string>
 			<key>VariableType</key>
 			<string>Series</string>
 		</dict>
@@ -551,7 +681,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>0.1</string>
+				<string>1e-4</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -566,7 +696,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>0.1</string>
+				<string>1e-4</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -581,7 +711,24 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>1.5</string>
+				<string>1e-5</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>dt</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>5e-3</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -736,7 +883,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>Input Var</string>
+							<string>Var series</string>
 						</dict>
 					</dict>
 				</array>
@@ -746,63 +893,249 @@
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>3D Point Series</string>
+			<string>3D Point Series from series</string>
 			<key>VariableType</key>
 			<string>Series</string>
 		</dict>
 		<dict>
 			<key>Content</key>
 			<dict>
-				<key>Time</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>Number</key>
-						<string>0</string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
 				<key>Variable</key>
 				<dict>
 					<key>Selected</key>
-					<string>3D Point Series</string>
+					<string>Var</string>
 				</dict>
 			</dict>
 			<key>Selection</key>
-			<string>Time Value</string>
+			<string>From Variable</string>
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>Time value of 3D Point Series</string>
+			<string>Points on Var</string>
 			<key>VariableType</key>
-			<string>Series</string>
+			<string>PointCollection3D</string>
 		</dict>
 		<dict>
 			<key>Content</key>
 			<dict>
-				<key>Series</key>
+				<key>Threads</key>
+				<integer>3</integer>
+				<key>Variable</key>
 				<dict>
 					<key>Selected</key>
-					<string>Time value of 3D Point Series</string>
-				</dict>
-				<key>Time</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>Number</key>
-						<string>2e-4</string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
+					<string>Points on Var</string>
 				</dict>
 			</dict>
 			<key>Selection</key>
-			<string>From Series</string>
+			<string>Combine Time Values</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
 			<key>VariableName</key>
-			<string>Entry from Time value of 3D Point Series</string>
+			<string>3D Point series from time value</string>
 			<key>VariableType</key>
-			<string>PointCollection3D</string>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Comment</key>
+			<string>Convert the input times into time bins</string>
+			<key>VariableName</key>
+			<string>DAComment - 9</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>round(start/dt)</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>start</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Start time</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>dt</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>dt</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>start bin</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>round(width/dt)</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>width</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Window size</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>dt</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>dt</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>bin width</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>round((end_time-start_time)/(window_size))</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>end_time</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>End time</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>start_time</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Start time</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>window_size</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Window size</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>number of bins</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
 		</dict>
 		<dict>
 			<key>Comment</key>
@@ -853,8 +1186,8 @@
 								<key>Number</key>
 								<string>10</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>number of bins</string>
 						</dict>
 					</dict>
 					<dict>
@@ -873,8 +1206,8 @@
 								<key>Number</key>
 								<string>10</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>bin width</string>
 						</dict>
 					</dict>
 					<dict>
@@ -909,7 +1242,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series</string>
+							<string>3D Point series from time value</string>
 						</dict>
 					</dict>
 					<dict>
@@ -948,14 +1281,16 @@
 								<key>Number</key>
 								<string>100</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>start bin</string>
 						</dict>
 					</dict>
 				</array>
 			</dict>
 			<key>Selection</key>
 			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
 			<key>VariableName</key>
 			<string>Network Adjacency</string>
 			<key>VariableType</key>
@@ -1118,7 +1453,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Metrics</string>
 			<key>VariableName</key>
@@ -1193,7 +1528,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series</string>
+							<string>3D Point Series from series</string>
 						</dict>
 					</dict>
 				</array>
@@ -1264,7 +1599,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series</string>
+							<string>3D Point Series from series</string>
 						</dict>
 					</dict>
 				</array>
@@ -1335,7 +1670,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series</string>
+							<string>3D Point Series from series</string>
 						</dict>
 					</dict>
 				</array>
@@ -1406,7 +1741,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series</string>
+							<string>3D Point Series from series</string>
 						</dict>
 					</dict>
 				</array>
@@ -1428,7 +1763,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Community based</string>
 			<key>VariableName</key>
@@ -1655,6 +1990,195 @@
 			<string>CollapserOpen</string>
 		</dict>
 		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Points on Var</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Time From Variable</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>points time</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>min(max(1,floor((round((points_time-start_time)/dt))/bin_width)),num_bins)</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>points_time</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>points time</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>start_time</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Start time</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>dt</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>dt</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>bin_width</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>bin width</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>num_bins</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>number of bins</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>which bin</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Array</key>
+				<dict>
+					<key>Selected</key>
+					<string>Partition</string>
+				</dict>
+				<key>Number</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>Selected</key>
+					<string>which bin</string>
+				</dict>
+				<key>Type</key>
+				<integer>1</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From Array</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Current partition</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Points</key>
+				<dict>
+					<key>Selected</key>
+					<string>Points on Var</string>
+				</dict>
+				<key>Values</key>
+				<dict>
+					<key>Selected</key>
+					<string>Current partition</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Points and Values</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>3D Point Value Collection</string>
+			<key>VariableType</key>
+			<string>PointValueCollection3D</string>
+		</dict>
+		<dict>
 			<key>VariableName</key>
 			<string>DACollapser - 11 - Closed</string>
 			<key>VariableType</key>
@@ -1663,8 +2187,8 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>600</real>
-		<real>154</real>
+		<real>339</real>
+		<real>95</real>
 		<real>941</real>
 		<real>682</real>
 	</array>
