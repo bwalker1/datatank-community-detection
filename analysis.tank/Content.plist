@@ -5,31 +5,240 @@
 	<key>Attachments</key>
 	<array/>
 	<key>DrawingWindows</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Antialiasing</key>
+			<string>YES</string>
+			<key>Axis</key>
+			<dict>
+				<key>YScale</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>ZScale</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>BoundingBox</key>
+			<dict>
+				<key>MaxXValue</key>
+				<string></string>
+				<key>MaxYValue</key>
+				<string></string>
+				<key>MaxZValue</key>
+				<string></string>
+				<key>MinXValue</key>
+				<string></string>
+				<key>MinYValue</key>
+				<string></string>
+				<key>MinZValue</key>
+				<string></string>
+				<key>RangeType</key>
+				<integer>0</integer>
+				<key>Region</key>
+				<dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Camera</key>
+			<dict>
+				<key>Active</key>
+				<integer>0</integer>
+				<key>Cameras</key>
+				<array>
+					<dict>
+						<key>CameraType</key>
+						<string>Spherical</string>
+						<key>Horizontal</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>CurrentValue</key>
+								<real>50</real>
+								<key>MaxValue</key>
+								<real>180</real>
+								<key>MinValue</key>
+								<real>-180</real>
+								<key>String</key>
+								<string>50</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Magnification</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>CurrentValue</key>
+								<real>20</real>
+								<key>MaxValue</key>
+								<real>60</real>
+								<key>MinValue</key>
+								<real>2</real>
+								<key>String</key>
+								<string>20</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Name</key>
+						<string>Spherical</string>
+						<key>UpVector</key>
+						<integer>0</integer>
+						<key>Vertical</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>CurrentValue</key>
+								<real>20</real>
+								<key>MaxValue</key>
+								<real>90</real>
+								<key>MinValue</key>
+								<real>-90</real>
+								<key>String</key>
+								<string>20</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>CommandContents</key>
+			<array/>
+			<key>DrawingHeight</key>
+			<real>192</real>
+			<key>DrawingWindowType</key>
+			<string>3DGLGraph</string>
+			<key>FigureName</key>
+			<string>Untitled</string>
+			<key>Last Drawing View Size</key>
+			<string>{512, 192}</string>
+			<key>Lights</key>
+			<dict>
+				<key>Lights</key>
+				<array/>
+			</dict>
+			<key>MaxHeight</key>
+			<string></string>
+			<key>MaxWidth</key>
+			<string></string>
+			<key>OutputHeight</key>
+			<string></string>
+			<key>OutputWidth</key>
+			<string></string>
+			<key>QT</key>
+			<dict>
+				<key>Format</key>
+				<string>Animation</string>
+				<key>Quality</key>
+				<dict>
+					<key>EntryName</key>
+					<string>Lossless</string>
+					<key>EntryNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Range</key>
+				<string>0,∞</string>
+				<key>ShowInFinder</key>
+				<string>On</string>
+				<key>TimeStep</key>
+				<string>1.0</string>
+			</dict>
+			<key>Rendering</key>
+			<dict>
+				<key>BackgroundColor</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Alpha</key>
+							<real>0.0</real>
+							<key>Blue</key>
+							<real>1</real>
+							<key>Green</key>
+							<real>1</real>
+							<key>Red</key>
+							<real>1</real>
+							<key>Space</key>
+							<string>NSCalibratedRGBColorSpace</string>
+						</dict>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Density</key>
+				<string>1</string>
+				<key>Fog</key>
+				<string>Off</string>
+				<key>FogType</key>
+				<integer>0</integer>
+				<key>LinearRange</key>
+				<string>0,1</string>
+				<key>Offset</key>
+				<string>1,10</string>
+				<key>Smoothing</key>
+				<integer>3</integer>
+				<key>Sorting</key>
+				<integer>0</integer>
+			</dict>
+			<key>SeparateWindowPos</key>
+			<array>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+			</array>
+			<key>ViewSizeJoined</key>
+			<string>514,192</string>
+			<key>ViewSizeSeparated</key>
+			<string></string>
+			<key>Visible</key>
+			<string>NO</string>
+			<key>WindowName</key>
+			<string>3D Space (GL)</string>
+			<key>WindowPos</key>
+			<array>
+				<real>662</real>
+				<real>100</real>
+				<real>512</real>
+				<real>407</real>
+			</array>
+		</dict>
+	</array>
 	<key>MonitorVariables</key>
 	<array>
-		<string>Input Var</string>
 		<string>3D Point Series</string>
-		<string>Entry from 3D Point Series</string>
-		<string>Network Adjacency</string>
-		<string>Partition</string>
-		<string>Mixing</string>
-		<string>Average nearby</string>
-		<string>Average interaction time</string>
-		<string>Average interaction waiting time</string>
+		<string>Time value of 3D Point Series</string>
+		<string>Entry from Time value of 3D Point Series</string>
 	</array>
 	<key>Time</key>
 	<dict>
 		<key>CurrentTime</key>
 		<dict>
 			<key>CurrentValue</key>
-			<real>0.0</real>
+			<real>1</real>
 			<key>MaxValue</key>
 			<real>2</real>
 			<key>MinValue</key>
 			<real>0.0</real>
 			<key>String</key>
-			<string>0</string>
+			<string>1</string>
 		</dict>
 		<key>Duration</key>
 		<string>10</string>
@@ -38,7 +247,7 @@
 		<key>Loop</key>
 		<string>Off</string>
 		<key>TimeHint</key>
-		<real>0.0</real>
+		<real>1</real>
 		<key>TimeStep</key>
 		<string>1.0</string>
 		<key>TimeStepSwitch</key>
@@ -79,6 +288,16 @@
 			<real>168</real>
 			<key>VariableName</key>
 			<string>DAText - 3</string>
+			<key>VariableType</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>ScriptName</key>
+			<string>Text-6.rtfd</string>
+			<key>TextHeight</key>
+			<real>56</real>
+			<key>VariableName</key>
+			<string>DAText - 5</string>
 			<key>VariableType</key>
 			<string>Text</string>
 		</dict>
@@ -190,7 +409,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Input</string>
 			<key>VariableName</key>
@@ -420,6 +639,31 @@
 			<string>Real Number</string>
 		</dict>
 		<dict>
+			<key>ScriptName</key>
+			<string>Text-5.rtfd</string>
+			<key>TextHeight</key>
+			<real>28</real>
+			<key>VariableName</key>
+			<string>DAText - 6</string>
+			<key>VariableType</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>3e-8</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>VariableName</key>
+			<string>Interaction Distance</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
 			<key>VariableName</key>
 			<string>DACollapser - 6 - Closed</string>
 			<key>VariableType</key>
@@ -509,17 +753,45 @@
 		<dict>
 			<key>Content</key>
 			<dict>
-				<key>Series</key>
+				<key>Time</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Variable</key>
 				<dict>
 					<key>Selected</key>
 					<string>3D Point Series</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Time Value</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Time value of 3D Point Series</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Series</key>
+				<dict>
+					<key>Selected</key>
+					<string>Time value of 3D Point Series</string>
 				</dict>
 				<key>Time</key>
 				<dict>
 					<key>Inline</key>
 					<dict>
 						<key>Number</key>
-						<string>1</string>
+						<string>2e-4</string>
 					</dict>
 					<key>SelectedNumber</key>
 					<integer>0</integer>
@@ -528,7 +800,7 @@
 			<key>Selection</key>
 			<string>From Series</string>
 			<key>VariableName</key>
-			<string>Entry from 3D Point Series</string>
+			<string>Entry from Time value of 3D Point Series</string>
 			<key>VariableType</key>
 			<string>PointCollection3D</string>
 		</dict>
@@ -697,7 +969,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Community Detection</string>
 			<key>VariableName</key>
@@ -833,8 +1105,6 @@
 			</dict>
 			<key>Selection</key>
 			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
 			<key>VariableName</key>
 			<string>Partition</string>
 			<key>VariableType</key>
@@ -848,7 +1118,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Metrics</string>
 			<key>VariableName</key>
@@ -858,7 +1128,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Position based</string>
 			<key>VariableName</key>
@@ -907,8 +1177,8 @@
 								<key>Number</key>
 								<string>5e-8</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>Interaction Distance</string>
 						</dict>
 					</dict>
 					<dict>
@@ -978,8 +1248,8 @@
 								<key>Number</key>
 								<string>5e-8</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>Interaction Distance</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1049,8 +1319,8 @@
 								<key>Number</key>
 								<string>5e-8</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>Interaction Distance</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1120,8 +1390,8 @@
 								<key>Number</key>
 								<string>5e-8</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>Interaction Distance</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1158,13 +1428,209 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Community based</string>
 			<key>VariableName</key>
 			<string>DACollapser - 10</string>
 			<key>VariableType</key>
 			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/mixing_network_1</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>mixing_network_1/mixing_network_1.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>clusters</string>
+						<key>Type</key>
+						<string>Array</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Partition</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Network Mixing</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/friends_network</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>friends_network/friends_network.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>clusters</string>
+						<key>Type</key>
+						<string>Array</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Partition</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Average in community</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/interaction_duration_network</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>interaction_duration_network/interaction_duration_network.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>clusters</string>
+						<key>Type</key>
+						<string>Array</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Partition</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Network Interaction Duration</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/waiting_time_network</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>waiting_time_network/waiting_time_network.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>clusters</string>
+						<key>Type</key>
+						<string>Array</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Partition</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Network Interaction Waiting Time</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
 		</dict>
 		<dict>
 			<key>VariableName</key>
@@ -1178,11 +1644,27 @@
 			<key>VariableType</key>
 			<string>CollapserClose</string>
 		</dict>
+		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Visualization</string>
+			<key>VariableName</key>
+			<string>DACollapser - 11</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 11 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>339</real>
-		<real>95</real>
+		<real>600</real>
+		<real>154</real>
 		<real>941</real>
 		<real>682</real>
 	</array>
