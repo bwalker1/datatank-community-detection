@@ -68,13 +68,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>136.30000000000001</real>
+								<real>134.5</real>
 								<key>MaxValue</key>
 								<real>180</real>
 								<key>MinValue</key>
 								<real>-180</real>
 								<key>String</key>
-								<string>136.3</string>
+								<string>134.5</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -104,13 +104,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>-63.090000000000003</real>
+								<real>-4.4850000000000003</real>
 								<key>MaxValue</key>
 								<real>90</real>
 								<key>MinValue</key>
 								<real>-90</real>
 								<key>String</key>
-								<string>-63.09</string>
+								<string>-4.485</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -160,7 +160,7 @@
 							<key>Inline</key>
 							<dict>
 								<key>Range</key>
-								<string>1,20</string>
+								<string>1,21</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -170,7 +170,7 @@
 							<key>Inline</key>
 							<dict>
 								<key>Number</key>
-								<string>1</string>
+								<string>15</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -180,7 +180,7 @@
 						<key>Swap</key>
 						<string>Off</string>
 						<key>Type</key>
-						<integer>0</integer>
+						<integer>2</integer>
 					</dict>
 					<key>Drawn</key>
 					<string>Include</string>
@@ -191,13 +191,13 @@
 				</dict>
 			</array>
 			<key>DrawingHeight</key>
-			<real>192</real>
+			<real>314</real>
 			<key>DrawingWindowType</key>
 			<string>3DGLGraph</string>
 			<key>FigureName</key>
 			<string>Untitled</string>
 			<key>Last Drawing View Size</key>
-			<string>{512, 192}</string>
+			<string>{679, 314}</string>
 			<key>Lights</key>
 			<dict>
 				<key>Lights</key>
@@ -275,26 +275,26 @@
 				<real>0.0</real>
 			</array>
 			<key>ViewSizeJoined</key>
-			<string>514,192</string>
+			<string>681,314</string>
 			<key>ViewSizeSeparated</key>
 			<string></string>
 			<key>Visible</key>
-			<string>YES</string>
+			<string>NO</string>
 			<key>WindowName</key>
 			<string>3D Space (GL)</string>
 			<key>WindowPos</key>
 			<array>
-				<real>580</real>
-				<real>89</real>
-				<real>512</real>
-				<real>407</real>
+				<real>576</real>
+				<real>90</real>
+				<real>679</real>
+				<real>619</real>
 			</array>
 		</dict>
 	</array>
 	<key>MonitorVariables</key>
 	<array>
 		<string>3D Point series from time value</string>
-		<string>Points on Var</string>
+		<string>3D Point Series from series</string>
 		<string>start bin</string>
 		<string>bin width</string>
 		<string>which bin</string>
@@ -302,19 +302,24 @@
 		<string>Network Adjacency</string>
 		<string>Partition</string>
 		<string>Current partition</string>
+		<string>3D Point Value Collection</string>
+		<string>Current Points Time</string>
+		<string>Var from Time value of Input Data Group</string>
+		<string>Time value of Input Data Group</string>
+		<string>Visualization Points Series</string>
 	</array>
 	<key>Time</key>
 	<dict>
 		<key>CurrentTime</key>
 		<dict>
 			<key>CurrentValue</key>
-			<real>0.00026000000000157001</real>
+			<real>2500.4000000506489</real>
 			<key>MaxValue</key>
-			<real>2</real>
+			<real>3700.0000002950396</real>
 			<key>MinValue</key>
 			<real>0.0</real>
 			<key>String</key>
-			<string>0.00026000000000157</string>
+			<string>2500.4000000506</string>
 		</dict>
 		<key>Duration</key>
 		<string>10</string>
@@ -323,7 +328,7 @@
 		<key>Loop</key>
 		<string>Off</string>
 		<key>TimeHint</key>
-		<real>1</real>
+		<real>0.00057999999999666998</real>
 		<key>TimeStep</key>
 		<string>1.0</string>
 		<key>TimeStepSwitch</key>
@@ -485,7 +490,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Input</string>
 			<key>VariableName</key>
@@ -505,9 +510,9 @@
 			<key>Content</key>
 			<dict>
 				<key>FileName</key>
-				<string>Output.mat</string>
+				<string>Output.dtbin</string>
 				<key>Result</key>
-				<string>~/Downloads/V7_3Runs_0Condensins_0Histones_dt0.5ns.dtask</string>
+				<string>~/Data/Chromosome Data Run 20180301.dtask</string>
 				<key>ShouldPropagate</key>
 				<string>On</string>
 			</dict>
@@ -615,8 +620,8 @@
 						<key>Text</key>
 						<string></string>
 					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
+					<key>Selected</key>
+					<string>Input DataTask</string>
 				</dict>
 			</dict>
 			<key>Selection</key>
@@ -652,6 +657,148 @@
 			<string>Series</string>
 		</dict>
 		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Extract specific result for visualization</string>
+			<key>VariableName</key>
+			<string>DACollapser - 12</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Time</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>0</string>
+					</dict>
+					<key>Selected</key>
+					<string>Visualization Run</string>
+				</dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Input Data Group</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Time Value</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Time value of Input Data Group</string>
+			<key>VariableType</key>
+			<string>Group</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Group</key>
+				<dict>
+					<key>Selected</key>
+					<string>Time value of Input Data Group</string>
+				</dict>
+				<key>Name</key>
+				<dict>
+					<key>Title</key>
+					<string>Var</string>
+					<key>Token</key>
+					<string>Var</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Group</string>
+			<key>VariableName</key>
+			<string>Var from Time value of Input Data Group</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Information</key>
+				<array>
+					<dict>
+						<key>Input</key>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>3D Path</string>
+								<key>Type</key>
+								<string>Path3D</string>
+							</dict>
+						</array>
+						<key>Name</key>
+						<string>3D Point Collection</string>
+					</dict>
+				</array>
+				<key>OutputVariable</key>
+				<string>3D Point Collection</string>
+				<key>Script</key>
+				<string>path to points</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>3D Path</string>
+						<key>Type</key>
+						<string>Path3D</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Var from Time value of Input Data Group</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Script On Series</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Visualization Points Series</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Series</key>
+				<dict>
+					<key>Selected</key>
+					<string>Visualization Points Series</string>
+				</dict>
+				<key>Time</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>0</string>
+					</dict>
+					<key>Selected</key>
+					<string>points time</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Series</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Entry from Visualization Points Series</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 12 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
 			<key>VariableName</key>
 			<string>DACollapser - 1 - Closed</string>
 			<key>VariableType</key>
@@ -659,7 +806,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Parameters</string>
 			<key>VariableName</key>
@@ -681,7 +828,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>1e-4</string>
+				<string>0</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -696,7 +843,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>1e-4</string>
+				<string>10</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -711,7 +858,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>1e-5</string>
+				<string>0.1</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -728,7 +875,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>5e-3</string>
+				<string>100</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -799,7 +946,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>3e-8</string>
+				<string>50</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -844,7 +991,7 @@
 		</dict>
 		<dict>
 			<key>Comment</key>
-			<string>This module converts the 3d path series to a 3d point series</string>
+			<string>Here, convert to a 3d point set - modify as needed you only want a subset of points</string>
 			<key>VariableName</key>
 			<string>DAComment - 3</string>
 			<key>VariableType</key>
@@ -903,15 +1050,85 @@
 				<key>Variable</key>
 				<dict>
 					<key>Selected</key>
+					<string>Points on Var</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Time From Variable</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Current Points Time</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Series</key>
+				<dict>
+					<key>Selected</key>
+					<string>3D Point Series from series</string>
+				</dict>
+				<key>Time</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>0</string>
+					</dict>
+					<key>Selected</key>
+					<string>Current Points Time</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Series</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Entry from 3D Point Series from series</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
 					<string>Var</string>
 				</dict>
 			</dict>
 			<key>Selection</key>
 			<string>From Variable</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
 			<key>VariableName</key>
 			<string>Points on Var</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Points</key>
+				<dict>
+					<key>Selected</key>
+					<string>Points on Var</string>
+				</dict>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>1560,1920</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Portion</string>
+			<key>VariableName</key>
+			<string>Portion of Points on Var</string>
 			<key>VariableType</key>
 			<string>PointCollection3D</string>
 		</dict>
@@ -923,7 +1140,7 @@
 				<key>Variable</key>
 				<dict>
 					<key>Selected</key>
-					<string>Points on Var</string>
+					<string>Portion of Points on Var</string>
 				</dict>
 			</dict>
 			<key>Selection</key>
@@ -1224,7 +1441,7 @@
 							<key>Inline</key>
 							<dict>
 								<key>Number</key>
-								<string>1e-7</string>
+								<string>300</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -1242,7 +1459,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point series from time value</string>
+							<string>3D Point Series from series</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1259,7 +1476,7 @@
 							<key>Inline</key>
 							<dict>
 								<key>Number</key>
-								<string>1e-7</string>
+								<string>100</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -1440,6 +1657,8 @@
 			</dict>
 			<key>Selection</key>
 			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
 			<key>VariableName</key>
 			<string>Partition</string>
 			<key>VariableType</key>
@@ -1453,7 +1672,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Metrics</string>
 			<key>VariableName</key>
@@ -1463,7 +1682,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Position based</string>
 			<key>VariableName</key>
@@ -1990,6 +2209,29 @@
 			<string>CollapserOpen</string>
 		</dict>
 		<dict>
+			<key>Comment</key>
+			<string>Set below to the run that you want to show in the plot</string>
+			<key>VariableName</key>
+			<string>DAComment - 10</string>
+			<key>VariableType</key>
+			<string>Comment</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>12</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>VariableName</key>
+			<string>Visualization Run</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
 			<key>Content</key>
 			<dict>
 				<key>Variable</key>
@@ -2128,10 +2370,38 @@
 		<dict>
 			<key>Content</key>
 			<dict>
-				<key>Array</key>
+				<key>Time</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>0</string>
+					</dict>
+					<key>Selected</key>
+					<string>Visualization Run</string>
+				</dict>
+				<key>Variable</key>
 				<dict>
 					<key>Selected</key>
 					<string>Partition</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Time Value</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Time Value of Partition</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Array</key>
+				<dict>
+					<key>Selected</key>
+					<string>Time Value of Partition</string>
 				</dict>
 				<key>Number</key>
 				<dict>
@@ -2161,7 +2431,7 @@
 				<key>Points</key>
 				<dict>
 					<key>Selected</key>
-					<string>Points on Var</string>
+					<string>Entry from Visualization Points Series</string>
 				</dict>
 				<key>Values</key>
 				<dict>
@@ -2187,8 +2457,8 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>339</real>
-		<real>95</real>
+		<real>46</real>
+		<real>14</real>
 		<real>941</real>
 		<real>682</real>
 	</array>

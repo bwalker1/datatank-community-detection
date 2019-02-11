@@ -9,9 +9,10 @@ This is the datatask file that contains the input information
 Extract the data out of the datatask file in the form of a 3d path series
 The resolution parameter - higher value will lead to a partition into smaller communities.
 The temporal parameter - higher value will lead to nodes more likely to stay in same cluster
-This module converts the 3d path series to a 3d point series
+Here, convert to a 3d point set - modify as needed you only want a subset of points
 Convert the input times into time bins
-This module converts the 3d point series data into a (dense) weighted adjacency matrix</string>
+This module converts the 3d point series data into a (dense) weighted adjacency matrix
+Set below to the run that you want to show in the plot</string>
 	<key>String</key>
 	<string>/Applications/Matlab_R2018a.app/bin/matlab
 /Users/ben/Dropbox/GenLouvain-2.1/</string>

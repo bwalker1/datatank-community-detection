@@ -46,7 +46,9 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
-            endingLineNumber = "96">
+            endingLineNumber = "96"
+            landmarkName = "Computation(double dist,const DTSeriesPointCollection3D &amp;points_series)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
