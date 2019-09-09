@@ -87,6 +87,29 @@
 			<dict>
 				<key>Variable</key>
 				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>1,2,3</string>
+					</dict>
+					<key>Selected</key>
+					<string>Nucleolus Points List</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>External Input</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Which Points to Extract</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Variable</key>
+				<dict>
 					<key>Selected</key>
 					<string>3D Path</string>
 				</dict>
@@ -113,7 +136,7 @@
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>List of Numbers</string>
+			<string>Nucleolus Points List</string>
 			<key>VariableType</key>
 			<string>NumberList</string>
 		</dict>
@@ -135,7 +158,7 @@
 						<string>1,2,3</string>
 					</dict>
 					<key>Selected</key>
-					<string>List of Numbers</string>
+					<string>Which Points to Extract</string>
 				</dict>
 			</dict>
 			<key>Selection</key>
@@ -170,8 +193,8 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>331</real>
-		<real>4</real>
+		<real>238</real>
+		<real>64</real>
 		<real>941</real>
 		<real>682</real>
 	</array>

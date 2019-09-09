@@ -68,13 +68,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>134.5</real>
+								<real>-88.600000000000009</real>
 								<key>MaxValue</key>
 								<real>180</real>
 								<key>MinValue</key>
 								<real>-180</real>
 								<key>String</key>
-								<string>134.5</string>
+								<string>-88.6</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -104,13 +104,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>-4.4850000000000003</real>
+								<real>14.540000000000001</real>
 								<key>MaxValue</key>
 								<real>90</real>
 								<key>MinValue</key>
 								<real>-90</real>
 								<key>String</key>
-								<string>-4.485</string>
+								<string>14.54</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -183,11 +183,73 @@
 						<integer>2</integer>
 					</dict>
 					<key>Drawn</key>
+					<string>Exclude</string>
+					<key>Status</key>
+					<string>Hidden</string>
+				</dict>
+				<dict>
+					<key>CommandName</key>
+					<string></string>
+					<key>CommandType</key>
+					<string>Point Collection</string>
+					<key>Computation</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Color</key>
+								<dict>
+									<key>Blue</key>
+									<real>0.011504650119999999</real>
+									<key>Green</key>
+									<real>0.0</real>
+									<key>Red</key>
+									<real>1</real>
+									<key>Space</key>
+									<string>NSCalibratedRGBColorSpace</string>
+								</dict>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Crop</key>
+						<string>On</string>
+						<key>CutOff</key>
+						<string>100K</string>
+						<key>Material</key>
+						<integer>0</integer>
+						<key>Maximum</key>
+						<string>700K</string>
+						<key>Points</key>
+						<dict>
+							<key>Selected</key>
+							<string>Loaded Points</string>
+						</dict>
+						<key>Region</key>
+						<dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Size</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Sparsify</key>
+						<string>On</string>
+						<key>Type</key>
+						<integer>0</integer>
+					</dict>
+					<key>Drawn</key>
 					<string>Include</string>
 					<key>Status</key>
 					<string>Visible</string>
-					<key>ToggleOpen</key>
-					<string>YES</string>
 				</dict>
 			</array>
 			<key>DrawingHeight</key>
@@ -211,24 +273,6 @@
 			<string></string>
 			<key>OutputWidth</key>
 			<string></string>
-			<key>QT</key>
-			<dict>
-				<key>Format</key>
-				<string>Animation</string>
-				<key>Quality</key>
-				<dict>
-					<key>EntryName</key>
-					<string>Lossless</string>
-					<key>EntryNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Range</key>
-				<string>0,∞</string>
-				<key>ShowInFinder</key>
-				<string>On</string>
-				<key>TimeStep</key>
-				<string>1.0</string>
-			</dict>
 			<key>Rendering</key>
 			<dict>
 				<key>BackgroundColor</key>
@@ -284,42 +328,983 @@
 			<string>3D Space (GL)</string>
 			<key>WindowPos</key>
 			<array>
-				<real>576</real>
-				<real>90</real>
+				<real>1130</real>
+				<real>235</real>
 				<real>679</real>
 				<real>619</real>
+			</array>
+		</dict>
+		<dict>
+			<key>Antialiasing</key>
+			<string>YES</string>
+			<key>Axis</key>
+			<dict>
+				<key>Background</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Alpha</key>
+							<real>0.0</real>
+							<key>Space</key>
+							<string>NSCalibratedWhiteColorSpace</string>
+							<key>White</key>
+							<real>1</real>
+						</dict>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>BackgroundScale</key>
+				<integer>1</integer>
+				<key>BottomLabels</key>
+				<integer>0</integer>
+				<key>DrawBox</key>
+				<string>On</string>
+				<key>DrawGrid</key>
+				<string>On</string>
+				<key>DrawInside</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Alpha</key>
+							<real>0.0</real>
+							<key>Space</key>
+							<string>NSCalibratedWhiteColorSpace</string>
+							<key>White</key>
+							<real>1</real>
+						</dict>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Font</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>Name</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<string>12</string>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>GridLineStyle</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>LineType</key>
+						<integer>1</integer>
+						<key>LineWidth</key>
+						<string>0.5</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>InsideScale</key>
+				<integer>1</integer>
+				<key>LeftLabels</key>
+				<integer>0</integer>
+				<key>LineStyle</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>LineWidth</key>
+						<string>0.5</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>MinorTicks</key>
+				<string>On</string>
+				<key>OverwriteXTicks</key>
+				<string>Off</string>
+				<key>OverwriteYTicks</key>
+				<string>Off</string>
+				<key>RightLabels</key>
+				<integer>2</integer>
+				<key>TickLengthMenu</key>
+				<integer>1</integer>
+				<key>TickLengthSpecified</key>
+				<string>8</string>
+				<key>TicksInside</key>
+				<string>Off</string>
+				<key>Title</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>TitleFont</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>Name</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<string>12</string>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>XLabel</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>XLinOrLog</key>
+				<integer>0</integer>
+				<key>XTicks</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>YLabel</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>YLinOrLog</key>
+				<integer>0</integer>
+				<key>YTicks</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>CommandContents</key>
+			<array>
+				<dict>
+					<key>CommandName</key>
+					<string></string>
+					<key>CommandType</key>
+					<string>Plot</string>
+					<key>Computation</key>
+					<dict>
+						<key>CropDomainSwitch</key>
+						<string>Off</string>
+						<key>CropRange</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Range</key>
+								<string>-∞,∞</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>CropValue</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Range</key>
+								<string>-∞,∞</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>CropValuesSwitch</key>
+						<string>Off</string>
+						<key>FillFrom</key>
+						<string>0</string>
+						<key>FillStyle</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Color</key>
+								<dict>
+									<key>Blue</key>
+									<real>0.032063801000000003</real>
+									<key>Green</key>
+									<real>1</real>
+									<key>Red</key>
+									<real>0.020642599000000001</real>
+									<key>Space</key>
+									<string>NSCalibratedRGBColorSpace</string>
+								</dict>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>FillSwitch</key>
+						<string>Off</string>
+						<key>IncludeInLegend</key>
+						<string>On</string>
+						<key>LineStyle</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Color</key>
+								<dict>
+									<key>Color</key>
+									<dict>
+										<key>Blue</key>
+										<real>0.0</real>
+										<key>Green</key>
+										<real>0.0</real>
+										<key>Red</key>
+										<real>0.0</real>
+										<key>Space</key>
+										<string>NSCalibratedRGBColorSpace</string>
+									</dict>
+								</dict>
+								<key>LineType</key>
+								<integer>0</integer>
+								<key>LineWidth</key>
+								<string>0.5</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Plot</key>
+						<dict>
+							<key>Selected</key>
+							<string>Plot of List from higher-order scatter plot</string>
+						</dict>
+						<key>XorY</key>
+						<integer>0</integer>
+					</dict>
+					<key>Drawn</key>
+					<string>Include</string>
+					<key>Status</key>
+					<string>Visible</string>
+				</dict>
+			</array>
+			<key>DomainRange</key>
+			<dict>
+				<key>Include</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>IncludeSwitch</key>
+				<string>Off</string>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Max</key>
+						<string></string>
+						<key>Min</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>RangeType</key>
+				<integer>0</integer>
+				<key>RestrictState</key>
+				<dict>
+					<key>Position</key>
+					<integer>0</integer>
+					<key>Stack</key>
+					<array>
+						<string>-∞,∞</string>
+					</array>
+					<key>String</key>
+					<string>-∞,∞</string>
+				</dict>
+				<key>RestrictSwitch</key>
+				<string>On</string>
+				<key>RestrictVariable</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>-∞,∞</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>DrawingHeight</key>
+			<real>198</real>
+			<key>DrawingWindow</key>
+			<dict>
+				<key>ClickMenu</key>
+				<dict>
+					<key>EntryName</key>
+					<string>Automatic</string>
+					<key>EntryNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>DrawingWindowType</key>
+			<string>1DGraph</string>
+			<key>FigureName</key>
+			<string>Untitled</string>
+			<key>Last Drawing View Size</key>
+			<string>{829, 198}</string>
+			<key>MaxHeight</key>
+			<string></string>
+			<key>MaxWidth</key>
+			<string></string>
+			<key>OutputHeight</key>
+			<string></string>
+			<key>OutputWidth</key>
+			<string></string>
+			<key>SeparateWindowPos</key>
+			<array>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+			</array>
+			<key>ValueRange</key>
+			<dict>
+				<key>Include</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>IncludeSwitch</key>
+				<string>Off</string>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Max</key>
+						<string></string>
+						<key>Min</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>RangeType</key>
+				<integer>0</integer>
+				<key>RestrictState</key>
+				<dict>
+					<key>Position</key>
+					<integer>0</integer>
+					<key>Stack</key>
+					<array>
+						<string>-∞,∞</string>
+					</array>
+					<key>String</key>
+					<string>-∞,∞</string>
+				</dict>
+				<key>RestrictSwitch</key>
+				<string>On</string>
+				<key>RestrictVariable</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>-∞,∞</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>ViewSizeJoined</key>
+			<string>829,198</string>
+			<key>ViewSizeSeparated</key>
+			<string></string>
+			<key>Visible</key>
+			<string>NO</string>
+			<key>WindowName</key>
+			<string>Plot of List from higher-order scatter plot</string>
+			<key>WindowPos</key>
+			<array>
+				<real>411</real>
+				<real>178</real>
+				<real>827</real>
+				<real>416</real>
+			</array>
+		</dict>
+		<dict>
+			<key>Antialiasing</key>
+			<string>YES</string>
+			<key>Axis</key>
+			<dict>
+				<key>Background</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Alpha</key>
+							<real>0.0</real>
+							<key>Space</key>
+							<string>NSCalibratedWhiteColorSpace</string>
+							<key>White</key>
+							<real>1</real>
+						</dict>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>BackgroundScale</key>
+				<integer>1</integer>
+				<key>BottomLabels</key>
+				<integer>0</integer>
+				<key>DrawBox</key>
+				<string>On</string>
+				<key>DrawGrid</key>
+				<string>On</string>
+				<key>DrawInside</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Alpha</key>
+							<real>0.0</real>
+							<key>Space</key>
+							<string>NSCalibratedWhiteColorSpace</string>
+							<key>White</key>
+							<real>1</real>
+						</dict>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Font</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>Name</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<string>12</string>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>GridLineStyle</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>LineType</key>
+						<integer>1</integer>
+						<key>LineWidth</key>
+						<string>0.5</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>InsideScale</key>
+				<integer>1</integer>
+				<key>LeftLabels</key>
+				<integer>0</integer>
+				<key>LineStyle</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>LineWidth</key>
+						<string>0.5</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>MinorTicks</key>
+				<string>On</string>
+				<key>OverwriteXTicks</key>
+				<string>Off</string>
+				<key>OverwriteYTicks</key>
+				<string>Off</string>
+				<key>RightLabels</key>
+				<integer>2</integer>
+				<key>TickLengthMenu</key>
+				<integer>1</integer>
+				<key>TickLengthSpecified</key>
+				<string>8</string>
+				<key>TicksInside</key>
+				<string>Off</string>
+				<key>Title</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>TitleFont</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<real>0.0</real>
+								<key>Space</key>
+								<string>NSCalibratedRGBColorSpace</string>
+							</dict>
+						</dict>
+						<key>Name</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<string>12</string>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>XLabel</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>XLinOrLog</key>
+				<integer>1</integer>
+				<key>XTicks</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>YLabel</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>YLinOrLog</key>
+				<integer>0</integer>
+				<key>YTicks</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>CommandContents</key>
+			<array>
+				<dict>
+					<key>CommandName</key>
+					<string></string>
+					<key>CommandType</key>
+					<string>Plot</string>
+					<key>Computation</key>
+					<dict>
+						<key>CropDomainSwitch</key>
+						<string>Off</string>
+						<key>CropRange</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Range</key>
+								<string>-∞,∞</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>CropValue</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Range</key>
+								<string>-∞,∞</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>CropValuesSwitch</key>
+						<string>Off</string>
+						<key>FillFrom</key>
+						<string>0</string>
+						<key>FillStyle</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Color</key>
+								<dict>
+									<key>Blue</key>
+									<real>0.032063801000000003</real>
+									<key>Green</key>
+									<real>1</real>
+									<key>Red</key>
+									<real>0.020642599000000001</real>
+									<key>Space</key>
+									<string>NSCalibratedRGBColorSpace</string>
+								</dict>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>FillSwitch</key>
+						<string>Off</string>
+						<key>IncludeInLegend</key>
+						<string>On</string>
+						<key>LineStyle</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Color</key>
+								<dict>
+									<key>Color</key>
+									<dict>
+										<key>Blue</key>
+										<real>0.0</real>
+										<key>Green</key>
+										<real>0.0</real>
+										<key>Red</key>
+										<real>0.0</real>
+										<key>Space</key>
+										<string>NSCalibratedRGBColorSpace</string>
+									</dict>
+								</dict>
+								<key>LineType</key>
+								<integer>0</integer>
+								<key>LineWidth</key>
+								<string>0.5</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Plot</key>
+						<dict>
+							<key>Selected</key>
+							<string>Sampling of Slope for Linear fit for Plot of List from higher-order scatter plot</string>
+						</dict>
+						<key>XorY</key>
+						<integer>0</integer>
+					</dict>
+					<key>Drawn</key>
+					<string>Include</string>
+					<key>Status</key>
+					<string>Visible</string>
+				</dict>
+			</array>
+			<key>DomainRange</key>
+			<dict>
+				<key>Include</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>IncludeSwitch</key>
+				<string>Off</string>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Max</key>
+						<string></string>
+						<key>Min</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>RangeType</key>
+				<integer>0</integer>
+				<key>RestrictState</key>
+				<dict>
+					<key>Position</key>
+					<integer>0</integer>
+					<key>Stack</key>
+					<array>
+						<string>-∞,∞</string>
+					</array>
+					<key>String</key>
+					<string>-∞,∞</string>
+				</dict>
+				<key>RestrictSwitch</key>
+				<string>On</string>
+				<key>RestrictVariable</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>-∞,∞</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>DrawingHeight</key>
+			<real>198</real>
+			<key>DrawingWindow</key>
+			<dict>
+				<key>ClickMenu</key>
+				<dict>
+					<key>EntryName</key>
+					<string>Automatic</string>
+					<key>EntryNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>DrawingWindowType</key>
+			<string>1DGraph</string>
+			<key>FigureName</key>
+			<string>Untitled</string>
+			<key>Last Drawing View Size</key>
+			<string>{514, 198}</string>
+			<key>MaxHeight</key>
+			<string></string>
+			<key>MaxWidth</key>
+			<string></string>
+			<key>OutputHeight</key>
+			<string></string>
+			<key>OutputWidth</key>
+			<string></string>
+			<key>SeparateWindowPos</key>
+			<array>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+				<real>0.0</real>
+			</array>
+			<key>ValueRange</key>
+			<dict>
+				<key>Include</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string>0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>IncludeSwitch</key>
+				<string>Off</string>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Max</key>
+						<string></string>
+						<key>Min</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>RangeType</key>
+				<integer>0</integer>
+				<key>RestrictState</key>
+				<dict>
+					<key>Position</key>
+					<integer>0</integer>
+					<key>Stack</key>
+					<array>
+						<string>-∞,∞</string>
+					</array>
+					<key>String</key>
+					<string>-∞,∞</string>
+				</dict>
+				<key>RestrictSwitch</key>
+				<string>On</string>
+				<key>RestrictVariable</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>-∞,∞</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>ViewSizeJoined</key>
+			<string>514,198</string>
+			<key>ViewSizeSeparated</key>
+			<string></string>
+			<key>Visible</key>
+			<string>NO</string>
+			<key>WindowName</key>
+			<string>Sampling of Slope for Linear fit for Plot of List from higher-order scatter plot</string>
+			<key>WindowPos</key>
+			<array>
+				<real>289</real>
+				<real>257</real>
+				<real>512</real>
+				<real>416</real>
 			</array>
 		</dict>
 	</array>
 	<key>MonitorVariables</key>
 	<array>
-		<string>3D Point series from time value</string>
-		<string>3D Point Series from series</string>
-		<string>start bin</string>
-		<string>bin width</string>
-		<string>which bin</string>
-		<string>number of bins</string>
-		<string>Network Adjacency</string>
-		<string>Partition</string>
-		<string>Current partition</string>
-		<string>3D Point Value Collection</string>
-		<string>Current Points Time</string>
-		<string>Var from Time value of Input Data Group</string>
-		<string>Time value of Input Data Group</string>
-		<string>Visualization Points Series</string>
+		<string>Loaded Points</string>
 	</array>
 	<key>Time</key>
 	<dict>
 		<key>CurrentTime</key>
 		<dict>
 			<key>CurrentValue</key>
-			<real>2500.4000000506489</real>
+			<real>0.0</real>
 			<key>MaxValue</key>
 			<real>3700.0000002950396</real>
 			<key>MinValue</key>
 			<real>0.0</real>
 			<key>String</key>
-			<string>2500.4000000506</string>
+			<string>0</string>
 		</dict>
 		<key>Duration</key>
 		<string>10</string>
@@ -328,7 +1313,7 @@
 		<key>Loop</key>
 		<string>Off</string>
 		<key>TimeHint</key>
-		<real>0.00057999999999666998</real>
+		<real>0.0</real>
 		<key>TimeStep</key>
 		<string>1.0</string>
 		<key>TimeStepSwitch</key>
@@ -512,7 +1497,7 @@
 				<key>FileName</key>
 				<string>Output.dtbin</string>
 				<key>Result</key>
-				<string>~/Data/Chromosome Data Run 20180301.dtask</string>
+				<string>~/Dropbox/data/misc/population_run_0.09.dtask</string>
 				<key>ShouldPropagate</key>
 				<string>On</string>
 			</dict>
@@ -524,6 +1509,264 @@
 			<string>Input DataTask</string>
 			<key>VariableType</key>
 			<string>FileName</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>FileName</key>
+				<string>Input.mat</string>
+				<key>Result</key>
+				<string>~/Data/Chromosome Data Run 20180301.dtask</string>
+				<key>ShouldPropagate</key>
+				<string>On</string>
+			</dict>
+			<key>Selection</key>
+			<string>From Parameter Run</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Copy of Input DataTask</string>
+			<key>VariableType</key>
+			<string>FileName</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Entries</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>coefficients</string>
+						<key>Type</key>
+						<string>Dictionary</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>endIndex</string>
+						<key>Type</key>
+						<string>NumberList</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>ends</string>
+						<key>Type</key>
+						<string>PointCollection3D</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>evolution</string>
+						<key>Type</key>
+						<string>Dictionary</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>lengths</string>
+						<key>Type</key>
+						<string>Array</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>seed</string>
+						<key>Type</key>
+						<string>Real Number</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>startIndex</string>
+						<key>Type</key>
+						<string>NumberList</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>terms</string>
+						<key>Type</key>
+						<string>Dictionary</string>
+					</dict>
+				</array>
+				<key>File</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Text</key>
+						<string></string>
+					</dict>
+					<key>Selected</key>
+					<string>Copy of Input DataTask</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Data File</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Data from Copy of Input DataTask</string>
+			<key>VariableType</key>
+			<string>Group</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Group</key>
+				<dict>
+					<key>Selected</key>
+					<string>Data from Copy of Input DataTask</string>
+				</dict>
+				<key>Name</key>
+				<dict>
+					<key>Title</key>
+					<string>coefficients</string>
+					<key>Token</key>
+					<string>coefficients</string>
+				</dict>
+				<key>NameString</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From Group</string>
+			<key>VariableName</key>
+			<string>coefficients from Data from Copy of Input DataTask</string>
+			<key>VariableType</key>
+			<string>Dictionary</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Group</key>
+				<dict>
+					<key>Selected</key>
+					<string>Data from Copy of Input DataTask</string>
+				</dict>
+				<key>Name</key>
+				<dict>
+					<key>Title</key>
+					<string>evolution</string>
+					<key>Token</key>
+					<string>evolution</string>
+				</dict>
+				<key>NameString</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From Group</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>evolution from Data from Copy of Input DataTask</string>
+			<key>VariableType</key>
+			<string>Dictionary</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Group</key>
+				<dict>
+					<key>Selected</key>
+					<string>Data from Copy of Input DataTask</string>
+				</dict>
+				<key>Name</key>
+				<dict>
+					<key>Title</key>
+					<string>terms</string>
+					<key>Token</key>
+					<string>terms</string>
+				</dict>
+				<key>NameString</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From Group</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>terms from Data from Copy of Input DataTask</string>
+			<key>VariableType</key>
+			<string>Dictionary</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Dictionary</key>
+				<dict>
+					<key>Selected</key>
+					<string>terms from Data from Copy of Input DataTask</string>
+				</dict>
+				<key>Key</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string>auto looping</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Dictionary</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Dictionary from terms from Data from Copy of Input DataTask</string>
+			<key>VariableType</key>
+			<string>Dictionary</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Dictionary</key>
+				<dict>
+					<key>Selected</key>
+					<string>Dictionary from terms from Data from Copy of Input DataTask</string>
+				</dict>
+				<key>Key</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string>mean on</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Dictionary</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>input mean on</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
 		</dict>
 		<dict>
 			<key>Content</key>
@@ -720,6 +1963,40 @@
 		<dict>
 			<key>Content</key>
 			<dict>
+				<key>Formula</key>
+				<string>1560,1,1920</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Stride</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Nucleolus Points List</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>1,1,2803</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Stride</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>All Points List</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
 				<key>Information</key>
 				<array>
 					<dict>
@@ -730,6 +2007,12 @@
 								<string>3D Path</string>
 								<key>Type</key>
 								<string>Path3D</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Which Points to Extract</string>
+								<key>Type</key>
+								<string>NumberList</string>
 							</dict>
 						</array>
 						<key>Name</key>
@@ -753,6 +2036,22 @@
 							<string>Var from Time value of Input Data Group</string>
 						</dict>
 					</dict>
+					<dict>
+						<key>Name</key>
+						<string>Which Points to Extract</string>
+						<key>Type</key>
+						<string>NumberList</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Text</key>
+								<string>1,2,3</string>
+							</dict>
+							<key>Selected</key>
+							<string>Nucleolus Points List</string>
+						</dict>
+					</dict>
 				</array>
 			</dict>
 			<key>Selection</key>
@@ -761,6 +2060,178 @@
 			<string>YES</string>
 			<key>VariableName</key>
 			<string>Visualization Points Series</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>FileName</key>
+				<string>~/Dropbox/Research/Analysis for Andrew/NucleolusPositionsShort2/FBFU-PositionsNuc.csv</string>
+			</dict>
+			<key>Selection</key>
+			<string>Single File</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>File to load</string>
+			<key>VariableType</key>
+			<string>FileName</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Extension</key>
+				<string>Off</string>
+				<key>File</key>
+				<dict>
+					<key>Selected</key>
+					<string>File to load</string>
+				</dict>
+				<key>Path</key>
+				<string>On</string>
+			</dict>
+			<key>Selection</key>
+			<string>From File Name</string>
+			<key>VariableName</key>
+			<string>Name of File to load</string>
+			<key>VariableType</key>
+			<string>String</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Debug/load_csv_points</string>
+				<key>Argument</key>
+				<string></string>
+				<key>DirName</key>
+				<string></string>
+				<key>DirType</key>
+				<integer>0</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>load_csv_points/load_csv_points.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>file</string>
+						<key>Type</key>
+						<string>String</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>String</key>
+								<string>text</string>
+							</dict>
+							<key>Selected</key>
+							<string>Name of File to load</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Task</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Loaded Points</string>
+			<key>VariableType</key>
+			<string>PointCollection3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Threads</key>
+				<integer>3</integer>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Loaded Points</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Combine Time Values</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Loaded Points Time Series</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Information</key>
+				<array>
+					<dict>
+						<key>Input</key>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>3D Path</string>
+								<key>Type</key>
+								<string>Path3D</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Which Points to Extract</string>
+								<key>Type</key>
+								<string>NumberList</string>
+							</dict>
+						</array>
+						<key>Name</key>
+						<string>3D Point Collection</string>
+					</dict>
+				</array>
+				<key>OutputVariable</key>
+				<string>3D Point Collection</string>
+				<key>Script</key>
+				<string>path to points</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Name</key>
+						<string>3D Path</string>
+						<key>Type</key>
+						<string>Path3D</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Var from Time value of Input Data Group</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>Which Points to Extract</string>
+						<key>Type</key>
+						<string>NumberList</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Text</key>
+								<string>1,2,3</string>
+							</dict>
+							<key>Selected</key>
+							<string>All Points List</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Script On Series</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>All points on visualization time</string>
 			<key>VariableType</key>
 			<string>Series</string>
 		</dict>
@@ -793,6 +2264,229 @@
 			<string>PointCollection3D</string>
 		</dict>
 		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>(x-u,y-v,z-w)</string>
+				<key>Grid</key>
+				<dict>
+					<key>Selected</key>
+					<string>Entry from Visualization Points Series</string>
+				</dict>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>w</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Z for 3D Vector</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>u</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>X for 3D Vector</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>v</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Y for 3D Vector</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Expression</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Function on Entry from Visualization Points Series</string>
+			<key>VariableType</key>
+			<string>VectorCollection3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Vectors</key>
+				<dict>
+					<key>Selected</key>
+					<string>Function on Entry from Visualization Points Series</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Vector Lengths</string>
+			<key>VariableName</key>
+			<string>Lengths of Function on Entry from Visualization Points Series</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>From</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Point</key>
+						<string>0,0,0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>To</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Point</key>
+						<string>1,1,1</string>
+					</dict>
+					<key>Selected</key>
+					<string>Center of mass of Entry from Visualization Points Series</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Between Points</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>3D Vector</string>
+			<key>VariableType</key>
+			<string>Vector3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Parameter</key>
+				<dict>
+					<key>Title</key>
+					<string>Z Direction</string>
+					<key>Token</key>
+					<string>Z Direction</string>
+				</dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>3D Vector</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Parameter</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Z for 3D Vector</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Parameter</key>
+				<dict>
+					<key>Title</key>
+					<string>Y Direction</string>
+					<key>Token</key>
+					<string>Y Direction</string>
+				</dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>3D Vector</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Parameter</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Y for 3D Vector</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Parameter</key>
+				<dict>
+					<key>Title</key>
+					<string>X Direction</string>
+					<key>Token</key>
+					<string>X Direction</string>
+				</dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>3D Vector</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Parameter</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>X for 3D Vector</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Points</key>
+				<dict>
+					<key>Selected</key>
+					<string>Entry from Visualization Points Series</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Center of Mass</string>
+			<key>VariableName</key>
+			<string>Center of mass of Entry from Visualization Points Series</string>
+			<key>VariableType</key>
+			<string>Point3D</string>
+		</dict>
+		<dict>
 			<key>VariableName</key>
 			<string>DACollapser - 12 - Closed</string>
 			<key>VariableType</key>
@@ -806,7 +2500,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Parameters</string>
 			<key>VariableName</key>
@@ -843,7 +2537,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>10</string>
+				<string>1</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -858,7 +2552,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>0.1</string>
+				<string>0.5</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -875,7 +2569,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>100</string>
+				<string>400</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -946,7 +2640,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>50</string>
+				<string>2</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -991,7 +2685,7 @@
 		</dict>
 		<dict>
 			<key>Comment</key>
-			<string>Here, convert to a 3d point set - modify as needed you only want a subset of points</string>
+			<string>Here, convert to a 3d point set - modify as needed if you only want a subset of points</string>
 			<key>VariableName</key>
 			<string>DAComment - 3</string>
 			<key>VariableType</key>
@@ -1010,6 +2704,12 @@
 								<string>3D Path</string>
 								<key>Type</key>
 								<string>Path3D</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Which Points to Extract</string>
+								<key>Type</key>
+								<string>NumberList</string>
 							</dict>
 						</array>
 						<key>Name</key>
@@ -1033,6 +2733,22 @@
 							<string>Var series</string>
 						</dict>
 					</dict>
+					<dict>
+						<key>Name</key>
+						<string>Which Points to Extract</string>
+						<key>Type</key>
+						<string>NumberList</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Text</key>
+								<string>1,2,3</string>
+							</dict>
+							<key>Selected</key>
+							<string>Nucleolus Points List</string>
+						</dict>
+					</dict>
 				</array>
 			</dict>
 			<key>Selection</key>
@@ -1040,7 +2756,30 @@
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>3D Point Series from series</string>
+			<string>Nucleolus Points Main</string>
+			<key>VariableType</key>
+			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>FirstVariable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Nucleolus Points Main</string>
+				</dict>
+				<key>SecondVariable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Loaded Points Time Series</string>
+				</dict>
+				<key>Which</key>
+				<integer>1</integer>
+			</dict>
+			<key>Selection</key>
+			<string>Toggle</string>
+			<key>VariableName</key>
+			<string>Toggle Nucleolus Points Main</string>
 			<key>VariableType</key>
 			<string>Series</string>
 		</dict>
@@ -1068,7 +2807,7 @@
 				<key>Series</key>
 				<dict>
 					<key>Selected</key>
-					<string>3D Point Series from series</string>
+					<string>Nucleolus Points Main</string>
 				</dict>
 				<key>Time</key>
 				<dict>
@@ -1441,7 +3180,7 @@
 							<key>Inline</key>
 							<dict>
 								<key>Number</key>
-								<string>300</string>
+								<string>100</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -1459,7 +3198,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series from series</string>
+							<string>Toggle Nucleolus Points Main</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1476,7 +3215,7 @@
 							<key>Inline</key>
 							<dict>
 								<key>Number</key>
-								<string>100</string>
+								<string>2</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -1665,6 +3404,22 @@
 			<string>Array</string>
 		</dict>
 		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Cluster RBF</string>
+			<key>VariableName</key>
+			<string>DACollapser - 14</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 14 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
 			<key>VariableName</key>
 			<string>DACollapser - 3 - Closed</string>
 			<key>VariableType</key>
@@ -1672,7 +3427,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Metrics</string>
 			<key>VariableName</key>
@@ -1747,7 +3502,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series from series</string>
+							<string>Toggle Nucleolus Points Main</string>
 						</dict>
 					</dict>
 				</array>
@@ -1818,7 +3573,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series from series</string>
+							<string>Toggle Nucleolus Points Main</string>
 						</dict>
 					</dict>
 				</array>
@@ -1889,7 +3644,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series from series</string>
+							<string>Toggle Nucleolus Points Main</string>
 						</dict>
 					</dict>
 				</array>
@@ -1902,6 +3657,45 @@
 			<string>Average interaction time</string>
 			<key>VariableType</key>
 			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Exclude</key>
+				<string>Off</string>
+				<key>Max</key>
+				<string>∞</string>
+				<key>Min</key>
+				<string>0</string>
+				<key>RealNumber</key>
+				<dict>
+					<key>Selected</key>
+					<string>Average interaction time</string>
+				</dict>
+				<key>Restrict</key>
+				<string>Off</string>
+				<key>Sparsify</key>
+				<string>On</string>
+				<key>StartingTime</key>
+				<string>0</string>
+				<key>StrideTime</key>
+				<string>1</string>
+				<key>Times</key>
+				<dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+				<key>Under</key>
+				<string>200</string>
+			</dict>
+			<key>Selection</key>
+			<string>Sample</string>
+			<key>VariableName</key>
+			<string>Sampling of Average interaction time</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
 		</dict>
 		<dict>
 			<key>Content</key>
@@ -1960,7 +3754,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series from series</string>
+							<string>Toggle Nucleolus Points Main</string>
 						</dict>
 					</dict>
 				</array>
@@ -2200,6 +3994,522 @@
 		</dict>
 		<dict>
 			<key>State</key>
+			<string>Closed</string>
+			<key>Title</key>
+			<string>a</string>
+			<key>VariableName</key>
+			<string>DACollapser - 13</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string></string>
+				<key>Argument</key>
+				<string></string>
+				<key>DirName</key>
+				<string></string>
+				<key>DirType</key>
+				<integer>0</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>test_hom1/test_hom1.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>points</string>
+						<key>SeriesType</key>
+						<string>PointCollection3D</string>
+						<key>Type</key>
+						<string>Series</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Visualization Points Series</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>embed_points</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>5</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>embed_delay</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>time_points</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>100</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Task</string>
+			<key>VariableName</key>
+			<string>Array</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Debug/test_hom_single</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>test_hom_single/test_hom_single.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>embed_points</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>embed_delay</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>points</string>
+						<key>SeriesType</key>
+						<string>PointCollection3D</string>
+						<key>Type</key>
+						<string>Series</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Visualization Points Series</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>VariableName</key>
+			<string>single embedding</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/ho_scatter</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>ho_scatter/ho_scatter.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>points</string>
+						<key>SeriesType</key>
+						<string>PointCollection3D</string>
+						<key>Type</key>
+						<string>Series</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Nucleolus Points Main</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>order</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>10</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>samples</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>100</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>higher-order scatter plot</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Array</key>
+				<dict>
+					<key>Selected</key>
+					<string>higher-order scatter plot</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Flatten Array</string>
+			<key>VariableName</key>
+			<string>higher-order scatter plot Flattened</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>List</key>
+				<dict>
+					<key>Selected</key>
+					<string>higher-order scatter plot Flattened</string>
+				</dict>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>1,250</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Region</string>
+			<key>VariableName</key>
+			<string>Region of higher-order scatter plot Flattened</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Array</key>
+				<dict>
+					<key>Selected</key>
+					<string>higher-order scatter plot</string>
+				</dict>
+				<key>Number</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Type</key>
+				<integer>1</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From Array</string>
+			<key>VariableName</key>
+			<string>Copy of List from higher-order scatter plot</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Numbers</key>
+				<dict>
+					<key>Selected</key>
+					<string>Copy of List from higher-order scatter plot</string>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+			</dict>
+			<key>Selection</key>
+			<string>Statistic For List</string>
+			<key>VariableName</key>
+			<string>Statistic for Copy of List from higher-order scatter plot</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Boundary</key>
+				<string>Off</string>
+				<key>Numbers</key>
+				<dict>
+					<key>Selected</key>
+					<string>Region of higher-order scatter plot Flattened</string>
+				</dict>
+				<key>Start</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Step</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From List Of Numbers</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Plot of List from higher-order scatter plot</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Plot</key>
+				<dict>
+					<key>Selected</key>
+					<string>Plot of List from higher-order scatter plot</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Linear Fit</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Linear fit for Plot of List from higher-order scatter plot</string>
+			<key>VariableType</key>
+			<string>Function1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Parameter</key>
+				<dict>
+					<key>Title</key>
+					<string>Slope</string>
+					<key>Token</key>
+					<string>Slope</string>
+				</dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Linear fit for Plot of List from higher-order scatter plot</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Parameter</string>
+			<key>VariableName</key>
+			<string>Slope for Linear fit for Plot of List from higher-order scatter plot</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Exclude</key>
+				<string>Off</string>
+				<key>Max</key>
+				<string>∞</string>
+				<key>Min</key>
+				<string>0</string>
+				<key>Restrict</key>
+				<string>Off</string>
+				<key>Sparsify</key>
+				<string>On</string>
+				<key>StartingTime</key>
+				<string>0</string>
+				<key>StrideTime</key>
+				<string>1</string>
+				<key>Threads</key>
+				<integer>1</integer>
+				<key>Times</key>
+				<dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+				<key>Under</key>
+				<string>200</string>
+				<key>XValue</key>
+				<dict>
+					<key>Selected</key>
+					<string>input mean on</string>
+				</dict>
+				<key>YValue</key>
+				<dict>
+					<key>Selected</key>
+					<string>Slope for Linear fit for Plot of List from higher-order scatter plot</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Sample (x(t),y(t))</string>
+			<key>VariableName</key>
+			<string>Sampling of Slope for Linear fit for Plot of List from higher-order scatter plot</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 13 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
+			<key>State</key>
 			<string>Open</string>
 			<key>Title</key>
 			<string>Visualization</string>
@@ -2220,7 +4530,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>12</string>
+				<string>0</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -2454,11 +4764,707 @@
 			<key>VariableType</key>
 			<string>CollapserClose</string>
 		</dict>
+		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Investigation for matlab model</string>
+			<key>VariableName</key>
+			<string>DACollapser - 15</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/cluster_rbf</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>cluster_rbf/cluster_rbf.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>bins</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>10</string>
+							</dict>
+							<key>Selected</key>
+							<string>number of bins</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>width</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>10</string>
+							</dict>
+							<key>Selected</key>
+							<string>bin width</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>threshold</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>300</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>scale</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>100</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>start</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>100</string>
+							</dict>
+							<key>Selected</key>
+							<string>start bin</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>points</string>
+						<key>SeriesType</key>
+						<string>PointCollection3D</string>
+						<key>Type</key>
+						<string>Series</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Visualization Points Series</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>partition</string>
+						<key>Type</key>
+						<string>Array</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Time Value of Partition</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Cluster RBF</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Release/noncluster_rbf</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>noncluster_rbf/noncluster_rbf.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>bins</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>10</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>width</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>10</string>
+							</dict>
+							<key>Selected</key>
+							<string>bin width</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>threshold</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>300</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>scale</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>100</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>start</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>100</string>
+							</dict>
+							<key>Selected</key>
+							<string>start bin</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>partition</string>
+						<key>Type</key>
+						<string>Array</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Time Value of Partition</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>points</string>
+						<key>SeriesType</key>
+						<string>PointCollection3D</string>
+						<key>Type</key>
+						<string>Series</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>All points on visualization time</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Not-cluster RBF</string>
+			<key>VariableType</key>
+			<string>Array</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Divide</key>
+				<string>Off</string>
+				<key>DivideNumber</key>
+				<string>Off</string>
+				<key>Inside</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>-∞,∞</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Number</key>
+				<dict>
+					<key>Selected</key>
+					<string>Not-cluster RBF</string>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+				<key>Width</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Histogram</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Histogram of Not-cluster RBF</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Function</key>
+				<string>((y/a)*2800)</string>
+				<key>Plot</key>
+				<dict>
+					<key>Selected</key>
+					<string>Histogram of Not-cluster RBF</string>
+				</dict>
+				<key>PointFunction</key>
+				<string>x</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>a</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Integral of Histogram of Not-cluster RBF normalized</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Map Values</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Histogram of Not-cluster RBF normalized</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Plot</key>
+				<dict>
+					<key>Selected</key>
+					<string>Histogram of Not-cluster RBF normalized</string>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+			</dict>
+			<key>Selection</key>
+			<string>From Plot</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Numbers from Histogram of Not-cluster RBF normalized</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Constant</key>
+				<string>On</string>
+				<key>Plot</key>
+				<dict>
+					<key>Selected</key>
+					<string>Histogram of Not-cluster RBF normalized</string>
+				</dict>
+				<key>Range</key>
+				<string>0,2</string>
+				<key>Which</key>
+				<integer>0</integer>
+				<key>X</key>
+				<string>On</string>
+				<key>X2</key>
+				<string>On</string>
+				<key>X3</key>
+				<string>On</string>
+				<key>X4</key>
+				<string>On</string>
+			</dict>
+			<key>Selection</key>
+			<string>Polynomial Fit</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Polynomial fit for Histogram of Not-cluster RBF normalized</string>
+			<key>VariableType</key>
+			<string>Function1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Function</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Function</key>
+						<string>sin(x)</string>
+					</dict>
+					<key>Selected</key>
+					<string>Polynomial fit for Histogram of Not-cluster RBF normalized</string>
+				</dict>
+				<key>Grid</key>
+				<dict>
+					<key>Selected</key>
+					<string>Numbers from Histogram of Not-cluster RBF normalized</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Function</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Values of Polynomial fit for Histogram of Not-cluster RBF normalized</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Method</key>
+				<integer>1</integer>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Histogram of Not-cluster RBF</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Integrate Plot</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Integral of Histogram of Not-cluster RBF normalized</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Divide</key>
+				<string>Off</string>
+				<key>DivideNumber</key>
+				<string>Off</string>
+				<key>Inside</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>-∞,∞</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Number</key>
+				<dict>
+					<key>Selected</key>
+					<string>Cluster RBF</string>
+				</dict>
+				<key>Type</key>
+				<integer>0</integer>
+				<key>Width</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Histogram</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Histogram of Cluster RBF</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Function</key>
+				<string>y/(x^2)</string>
+				<key>Plot</key>
+				<dict>
+					<key>Selected</key>
+					<string>Histogram of Cluster RBF</string>
+				</dict>
+				<key>PointFunction</key>
+				<string>x</string>
+				<key>Variables</key>
+				<array/>
+			</dict>
+			<key>Selection</key>
+			<string>Map Values</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Histogram of Cluster RBF mapped</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Plot</key>
+				<dict>
+					<key>Selected</key>
+					<string>Histogram of Cluster RBF mapped</string>
+				</dict>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>0,100</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Region</string>
+			<key>VariableName</key>
+			<string>Region of Histogram of Cluster RBF mapped</string>
+			<key>VariableType</key>
+			<string>Plot1D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Formula</key>
+				<string>c*exp(-a*x^2)</string>
+				<key>Initial</key>
+				<string>Off</string>
+				<key>Plot</key>
+				<dict>
+					<key>Selected</key>
+					<string>Region of Histogram of Cluster RBF mapped</string>
+				</dict>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>NIB</key>
+						<string>DAVarSupport-Function1D-Nonlinear_Least_Squares-Divider</string>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>a</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>c</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>1</string>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>Nonlinear Least Squares</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>function fit for Region of Histogram of Cluster RBF mapped</string>
+			<key>VariableType</key>
+			<string>Function1D</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 15 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>46</real>
-		<real>14</real>
+		<real>172</real>
+		<real>238</real>
 		<real>941</real>
 		<real>682</real>
 	</array>

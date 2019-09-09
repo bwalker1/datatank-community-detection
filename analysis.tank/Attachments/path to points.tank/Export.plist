@@ -11,6 +11,17 @@
 				<key>Type</key>
 				<string>Path3D</string>
 			</dict>
+			<dict>
+				<key>Extra</key>
+				<dict>
+					<key>Text</key>
+					<string>1,2,3</string>
+				</dict>
+				<key>Name</key>
+				<string>Which Points to Extract</string>
+				<key>Type</key>
+				<string>NumberList</string>
+			</dict>
 		</array>
 		<key>Name</key>
 		<string>3D Point Collection</string>
