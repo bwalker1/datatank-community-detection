@@ -211,24 +211,6 @@
 			<string></string>
 			<key>OutputWidth</key>
 			<string></string>
-			<key>QT</key>
-			<dict>
-				<key>Format</key>
-				<string>Animation</string>
-				<key>Quality</key>
-				<dict>
-					<key>EntryName</key>
-					<string>Lossless</string>
-					<key>EntryNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Range</key>
-				<string>0,∞</string>
-				<key>ShowInFinder</key>
-				<string>On</string>
-				<key>TimeStep</key>
-				<string>1.0</string>
-			</dict>
 			<key>Rendering</key>
 			<dict>
 				<key>BackgroundColor</key>
@@ -307,19 +289,25 @@
 		<string>Var from Time value of Input Data Group</string>
 		<string>Time value of Input Data Group</string>
 		<string>Visualization Points Series</string>
+		<string>time from Var</string>
+		<string>extract time info</string>
+		<string>Data Start Time</string>
+		<string>points time</string>
+		<string>Processing Start time</string>
+		<string>dt</string>
 	</array>
 	<key>Time</key>
 	<dict>
 		<key>CurrentTime</key>
 		<dict>
 			<key>CurrentValue</key>
-			<real>2500.4000000506489</real>
+			<real>2514.7000000535622</real>
 			<key>MaxValue</key>
 			<real>3700.0000002950396</real>
 			<key>MinValue</key>
 			<real>0.0</real>
 			<key>String</key>
-			<string>2500.4000000506</string>
+			<string>2514.7000000536</string>
 		</dict>
 		<key>Duration</key>
 		<string>10</string>
@@ -328,7 +316,7 @@
 		<key>Loop</key>
 		<string>Off</string>
 		<key>TimeHint</key>
-		<real>0.00057999999999666998</real>
+		<real>9</real>
 		<key>TimeStep</key>
 		<string>1.0</string>
 		<key>TimeStepSwitch</key>
@@ -512,7 +500,7 @@
 				<key>FileName</key>
 				<string>Output.dtbin</string>
 				<key>Result</key>
-				<string>~/Data/Chromosome Data Run 20180301.dtask</string>
+				<string>~/Dropbox/data/misc/population_run_0.09.dtask</string>
 				<key>ShouldPropagate</key>
 				<string>On</string>
 			</dict>
@@ -580,6 +568,24 @@
 			<string>Path3D</string>
 		</dict>
 		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Var</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Time From Variable</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>time from Var</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
 			<key>Comment</key>
 			<string>Extract the data out of the datatask file in the form of a 3d path series</string>
 			<key>VariableName</key>
@@ -594,6 +600,12 @@
 				<array>
 					<dict>
 						<key>Name</key>
+						<string>ExcludedVolume</string>
+						<key>Type</key>
+						<string>Plot1D</string>
+					</dict>
+					<dict>
+						<key>Name</key>
 						<string>ExecutionErrors</string>
 						<key>Type</key>
 						<string>StringList</string>
@@ -606,11 +618,71 @@
 					</dict>
 					<dict>
 						<key>Name</key>
+						<string>LoopConnectors</string>
+						<key>Type</key>
+						<string>NumberList</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>LoopForce</string>
+						<key>Type</key>
+						<string>Plot1D</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>LoopInformation</string>
+						<key>Type</key>
+						<string>Dictionary</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>Loops</string>
+						<key>Series</key>
+						<string>NumberList</string>
+						<key>Type</key>
+						<string>Series</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>MarkersOff</string>
+						<key>Series</key>
+						<string>NumberList</string>
+						<key>Type</key>
+						<string>Series</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>MarkersOn</string>
+						<key>Series</key>
+						<string>NumberList</string>
+						<key>Type</key>
+						<string>Series</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>SpringForce</string>
+						<key>Type</key>
+						<string>Plot1D</string>
+					</dict>
+					<dict>
+						<key>Name</key>
 						<string>Var</string>
 						<key>Series</key>
 						<string>Path3D</string>
 						<key>Type</key>
 						<string>Series</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>beadInSegment</string>
+						<key>Type</key>
+						<string>NumberList</string>
+					</dict>
+					<dict>
+						<key>Name</key>
+						<string>segmentNumber</string>
+						<key>Type</key>
+						<string>NumberList</string>
 					</dict>
 				</array>
 				<key>File</key>
@@ -651,10 +723,127 @@
 			</dict>
 			<key>Selection</key>
 			<string>From Group</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
 			<key>VariableName</key>
 			<string>Var series</string>
 			<key>VariableType</key>
 			<string>Series</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Application</key>
+				<string>$BUILD/Debug/extract_time_info</string>
+				<key>Argument</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>String</key>
+						<string></string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Communication</key>
+				<integer>1</integer>
+				<key>Input</key>
+				<string>Input.dtbin</string>
+				<key>Output</key>
+				<string>Output.dtbin</string>
+				<key>Project</key>
+				<string>extract_time_info/extract_time_info.xcodeproj</string>
+				<key>Variables</key>
+				<array>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>series</string>
+						<key>SeriesType</key>
+						<string>Path3D</string>
+						<key>Type</key>
+						<string>Series</string>
+						<key>Var</key>
+						<dict>
+							<key>Selected</key>
+							<string>Var series</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>Selection</key>
+			<string>External Program</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>extract time info</string>
+			<key>VariableType</key>
+			<string>NumberList</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>List</key>
+				<dict>
+					<key>Selected</key>
+					<string>extract time info</string>
+				</dict>
+				<key>Location</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>RangeEqualsCurrent</key>
+				<string>On</string>
+				<key>StartAt0</key>
+				<string>Off</string>
+			</dict>
+			<key>Selection</key>
+			<string>Value From List</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Data Start Time</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>List</key>
+				<dict>
+					<key>Selected</key>
+					<string>extract time info</string>
+				</dict>
+				<key>Location</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>2</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>RangeEqualsCurrent</key>
+				<string>On</string>
+				<key>StartAt0</key>
+				<string>Off</string>
+			</dict>
+			<key>Selection</key>
+			<string>Value From List</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>dt</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
 		</dict>
 		<dict>
 			<key>State</key>
@@ -806,7 +995,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Parameters</string>
 			<key>VariableName</key>
@@ -828,14 +1017,14 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>0</string>
+				<string>2500</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
 			<key>Selection</key>
 			<string>Expression</string>
 			<key>VariableName</key>
-			<string>Start time</string>
+			<string>Processing Start time</string>
 			<key>VariableType</key>
 			<string>Real Number</string>
 		</dict>
@@ -867,7 +1056,7 @@
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>dt</string>
+			<string>dt old</string>
 			<key>VariableType</key>
 			<string>Real Number</string>
 		</dict>
@@ -875,7 +1064,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>100</string>
+				<string>2600</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -1164,14 +1353,14 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>round(start/dt)</string>
+				<string>round((p_start-d_start)/dt)</string>
 				<key>Variables</key>
 				<array>
 					<dict>
 						<key>Include</key>
 						<string>On</string>
 						<key>Name</key>
-						<string>start</string>
+						<string>p_start</string>
 						<key>Number Type</key>
 						<integer>0</integer>
 						<key>Type</key>
@@ -1184,7 +1373,27 @@
 								<string>0</string>
 							</dict>
 							<key>Selected</key>
-							<string>Start time</string>
+							<string>Processing Start time</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>d_start</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Data Start Time</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1320,7 +1529,7 @@
 								<string>0</string>
 							</dict>
 							<key>Selected</key>
-							<string>Start time</string>
+							<string>Processing Start time</string>
 						</dict>
 					</dict>
 					<dict>
@@ -2253,7 +2462,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>min(max(1,floor((round((points_time-start_time)/dt))/bin_width)),num_bins)</string>
+				<string>min(ceil((points_time-start_time)/window),num_bins)</string>
 				<key>Variables</key>
 				<array>
 					<dict>
@@ -2293,7 +2502,7 @@
 								<string>0</string>
 							</dict>
 							<key>Selected</key>
-							<string>Start time</string>
+							<string>Processing Start time</string>
 						</dict>
 					</dict>
 					<dict>
@@ -2354,6 +2563,26 @@
 							</dict>
 							<key>Selected</key>
 							<string>number of bins</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Include</key>
+						<string>On</string>
+						<key>Name</key>
+						<string>window</string>
+						<key>Number Type</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>Real Number</string>
+						<key>Var</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Number</key>
+								<string>0</string>
+							</dict>
+							<key>Selected</key>
+							<string>Window size</string>
 						</dict>
 					</dict>
 				</array>
@@ -2457,10 +2686,10 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>46</real>
-		<real>14</real>
-		<real>941</real>
-		<real>682</real>
+		<real>586</real>
+		<real>39</real>
+		<real>1158</real>
+		<real>901</real>
 	</array>
 </dict>
 </plist>
