@@ -301,13 +301,13 @@
 		<key>CurrentTime</key>
 		<dict>
 			<key>CurrentValue</key>
-			<real>2514.7000000535622</real>
+			<real>3700.0000002950001</real>
 			<key>MaxValue</key>
 			<real>3700.0000002950396</real>
 			<key>MinValue</key>
 			<real>0.0</real>
 			<key>String</key>
-			<string>2514.7000000536</string>
+			<string>3700.000000295</string>
 		</dict>
 		<key>Duration</key>
 		<string>10</string>
@@ -495,6 +495,16 @@
 			<string>Comment</string>
 		</dict>
 		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>For parameter run input</string>
+			<key>VariableName</key>
+			<string>DACollapser - 13</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
 			<key>Content</key>
 			<dict>
 				<key>FileName</key>
@@ -541,6 +551,12 @@
 			<string>DataFile</string>
 			<key>ViewHeight</key>
 			<real>214</real>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 13 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
 		</dict>
 		<dict>
 			<key>Content</key>
@@ -2686,9 +2702,9 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>586</real>
-		<real>39</real>
-		<real>1158</real>
+		<real>638</real>
+		<real>73</real>
+		<real>941</real>
 		<real>901</real>
 	</array>
 </dict>
