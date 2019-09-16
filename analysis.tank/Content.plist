@@ -68,13 +68,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>134.5</real>
+								<real>-58.710000000000001</real>
 								<key>MaxValue</key>
 								<real>180</real>
 								<key>MinValue</key>
 								<real>-180</real>
 								<key>String</key>
-								<string>134.5</string>
+								<string>-58.71</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -104,13 +104,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>-4.4850000000000003</real>
+								<real>-4.6909999999999998</real>
 								<key>MaxValue</key>
 								<real>90</real>
 								<key>MinValue</key>
 								<real>-90</real>
 								<key>String</key>
-								<string>-4.485</string>
+								<string>-4.691</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -143,7 +143,7 @@
 						<key>Points</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Value Collection</string>
+							<string>Final output - points labeled by cluster</string>
 						</dict>
 						<key>Ramp</key>
 						<dict>
@@ -160,10 +160,10 @@
 							<key>Inline</key>
 							<dict>
 								<key>Range</key>
-								<string>1,21</string>
+								<string>1,58</string>
 							</dict>
-							<key>SelectedNumber</key>
-							<integer>0</integer>
+							<key>Selected</key>
+							<string>Cluster ID Range</string>
 						</dict>
 						<key>Size</key>
 						<dict>
@@ -266,8 +266,8 @@
 			<string>3D Space (GL)</string>
 			<key>WindowPos</key>
 			<array>
-				<real>576</real>
-				<real>90</real>
+				<real>1197</real>
+				<real>55</real>
 				<real>679</real>
 				<real>619</real>
 			</array>
@@ -276,38 +276,24 @@
 	<key>MonitorVariables</key>
 	<array>
 		<string>3D Point series from time value</string>
-		<string>3D Point Series from series</string>
 		<string>start bin</string>
 		<string>bin width</string>
 		<string>which bin</string>
 		<string>number of bins</string>
-		<string>Network Adjacency</string>
-		<string>Partition</string>
-		<string>Current partition</string>
-		<string>3D Point Value Collection</string>
-		<string>Current Points Time</string>
-		<string>Var from Time value of Input Data Group</string>
-		<string>Time value of Input Data Group</string>
-		<string>Visualization Points Series</string>
-		<string>time from Var</string>
 		<string>extract time info</string>
-		<string>Data Start Time</string>
-		<string>points time</string>
-		<string>Processing Start time</string>
-		<string>dt</string>
 	</array>
 	<key>Time</key>
 	<dict>
 		<key>CurrentTime</key>
 		<dict>
 			<key>CurrentValue</key>
-			<real>3700.0000002950001</real>
+			<real>2600</real>
 			<key>MaxValue</key>
 			<real>3700.0000002950396</real>
 			<key>MinValue</key>
 			<real>0.0</real>
 			<key>String</key>
-			<string>3700.000000295</string>
+			<string>2600</string>
 		</dict>
 		<key>Duration</key>
 		<string>10</string>
@@ -352,9 +338,9 @@
 	<array>
 		<dict>
 			<key>ScriptName</key>
-			<string>Text-2.rtfd</string>
+			<string>Text-5.rtfd</string>
 			<key>TextHeight</key>
-			<real>168</real>
+			<real>154</real>
 			<key>VariableName</key>
 			<string>DAText - 3</string>
 			<key>VariableType</key>
@@ -362,7 +348,7 @@
 		</dict>
 		<dict>
 			<key>ScriptName</key>
-			<string>Text-6.rtfd</string>
+			<string>Text-1.rtfd</string>
 			<key>TextHeight</key>
 			<real>42</real>
 			<key>VariableName</key>
@@ -392,7 +378,7 @@
 		</dict>
 		<dict>
 			<key>Comment</key>
-			<string>The path to the matlab executable on your system (change this to be correct0</string>
+			<string>The path to the matlab executable on your system (change this to be correct)</string>
 			<key>VariableName</key>
 			<string>DAComment - 5</string>
 			<key>VariableType</key>
@@ -495,33 +481,29 @@
 			<string>Comment</string>
 		</dict>
 		<dict>
-			<key>State</key>
-			<string>Open</string>
-			<key>Title</key>
-			<string>For parameter run input</string>
-			<key>VariableName</key>
-			<string>DACollapser - 13</string>
-			<key>VariableType</key>
-			<string>CollapserOpen</string>
-		</dict>
-		<dict>
 			<key>Content</key>
 			<dict>
 				<key>FileName</key>
-				<string>Output.dtbin</string>
-				<key>Result</key>
-				<string>~/Dropbox/data/misc/population_run_0.09.dtask</string>
-				<key>ShouldPropagate</key>
-				<string>On</string>
+				<string>~/Desktop/Sergio 20190912/Output.dtbin</string>
 			</dict>
 			<key>Selection</key>
-			<string>From Parameter Run</string>
+			<string>Single File</string>
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>Input DataTask</string>
+			<string>Input File</string>
 			<key>VariableType</key>
 			<string>FileName</string>
+		</dict>
+		<dict>
+			<key>State</key>
+			<string>Closed</string>
+			<key>Title</key>
+			<string>Processing</string>
+			<key>VariableName</key>
+			<string>DACollapser - 8</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
 		</dict>
 		<dict>
 			<key>Content</key>
@@ -534,7 +516,7 @@
 						<string></string>
 					</dict>
 					<key>Selected</key>
-					<string>Input DataTask</string>
+					<string>Input File</string>
 				</dict>
 				<key>Time</key>
 				<string>0</string>
@@ -546,17 +528,11 @@
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>Data File</string>
+			<string>Input Data</string>
 			<key>VariableType</key>
 			<string>DataFile</string>
 			<key>ViewHeight</key>
 			<real>214</real>
-		</dict>
-		<dict>
-			<key>VariableName</key>
-			<string>DACollapser - 13 - Closed</string>
-			<key>VariableType</key>
-			<string>CollapserClose</string>
 		</dict>
 		<dict>
 			<key>Content</key>
@@ -564,7 +540,7 @@
 				<key>File</key>
 				<dict>
 					<key>Selected</key>
-					<string>Data File</string>
+					<string>Input Data</string>
 				</dict>
 				<key>ReadForBB</key>
 				<string>Off</string>
@@ -578,6 +554,8 @@
 			</dict>
 			<key>Selection</key>
 			<string>Read</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
 			<key>VariableName</key>
 			<string>Var</string>
 			<key>VariableType</key>
@@ -612,133 +590,16 @@
 		<dict>
 			<key>Content</key>
 			<dict>
-				<key>Entries</key>
-				<array>
-					<dict>
-						<key>Name</key>
-						<string>ExcludedVolume</string>
-						<key>Type</key>
-						<string>Plot1D</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>ExecutionErrors</string>
-						<key>Type</key>
-						<string>StringList</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>ExecutionTime</string>
-						<key>Type</key>
-						<string>Real Number</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>LoopConnectors</string>
-						<key>Type</key>
-						<string>NumberList</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>LoopForce</string>
-						<key>Type</key>
-						<string>Plot1D</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>LoopInformation</string>
-						<key>Type</key>
-						<string>Dictionary</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>Loops</string>
-						<key>Series</key>
-						<string>NumberList</string>
-						<key>Type</key>
-						<string>Series</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>MarkersOff</string>
-						<key>Series</key>
-						<string>NumberList</string>
-						<key>Type</key>
-						<string>Series</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>MarkersOn</string>
-						<key>Series</key>
-						<string>NumberList</string>
-						<key>Type</key>
-						<string>Series</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>SpringForce</string>
-						<key>Type</key>
-						<string>Plot1D</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>Var</string>
-						<key>Series</key>
-						<string>Path3D</string>
-						<key>Type</key>
-						<string>Series</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>beadInSegment</string>
-						<key>Type</key>
-						<string>NumberList</string>
-					</dict>
-					<dict>
-						<key>Name</key>
-						<string>segmentNumber</string>
-						<key>Type</key>
-						<string>NumberList</string>
-					</dict>
-				</array>
-				<key>File</key>
+				<key>Threads</key>
+				<integer>3</integer>
+				<key>Variable</key>
 				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>Text</key>
-						<string></string>
-					</dict>
 					<key>Selected</key>
-					<string>Input DataTask</string>
+					<string>time from Var</string>
 				</dict>
 			</dict>
 			<key>Selection</key>
-			<string>From Data File</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Input Data Group</string>
-			<key>VariableType</key>
-			<string>Group</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Group</key>
-				<dict>
-					<key>Selected</key>
-					<string>Input Data Group</string>
-				</dict>
-				<key>Name</key>
-				<dict>
-					<key>Title</key>
-					<string>Var</string>
-					<key>Token</key>
-					<string>Var</string>
-				</dict>
-			</dict>
-			<key>Selection</key>
-			<string>From Group</string>
+			<string>Combine Time Values</string>
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
@@ -777,7 +638,7 @@
 						<key>Name</key>
 						<string>series</string>
 						<key>SeriesType</key>
-						<string>Path3D</string>
+						<string>Real Number</string>
 						<key>Type</key>
 						<string>Series</string>
 						<key>Var</key>
@@ -862,144 +723,8 @@
 			<string>Real Number</string>
 		</dict>
 		<dict>
-			<key>State</key>
-			<string>Open</string>
-			<key>Title</key>
-			<string>Extract specific result for visualization</string>
 			<key>VariableName</key>
-			<string>DACollapser - 12</string>
-			<key>VariableType</key>
-			<string>CollapserOpen</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Time</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>Number</key>
-						<string>0</string>
-					</dict>
-					<key>Selected</key>
-					<string>Visualization Run</string>
-				</dict>
-				<key>Variable</key>
-				<dict>
-					<key>Selected</key>
-					<string>Input Data Group</string>
-				</dict>
-			</dict>
-			<key>Selection</key>
-			<string>Time Value</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Time value of Input Data Group</string>
-			<key>VariableType</key>
-			<string>Group</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Group</key>
-				<dict>
-					<key>Selected</key>
-					<string>Time value of Input Data Group</string>
-				</dict>
-				<key>Name</key>
-				<dict>
-					<key>Title</key>
-					<string>Var</string>
-					<key>Token</key>
-					<string>Var</string>
-				</dict>
-			</dict>
-			<key>Selection</key>
-			<string>From Group</string>
-			<key>VariableName</key>
-			<string>Var from Time value of Input Data Group</string>
-			<key>VariableType</key>
-			<string>Series</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Information</key>
-				<array>
-					<dict>
-						<key>Input</key>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>3D Path</string>
-								<key>Type</key>
-								<string>Path3D</string>
-							</dict>
-						</array>
-						<key>Name</key>
-						<string>3D Point Collection</string>
-					</dict>
-				</array>
-				<key>OutputVariable</key>
-				<string>3D Point Collection</string>
-				<key>Script</key>
-				<string>path to points</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Name</key>
-						<string>3D Path</string>
-						<key>Type</key>
-						<string>Path3D</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>Var from Time value of Input Data Group</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>Script On Series</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Visualization Points Series</string>
-			<key>VariableType</key>
-			<string>Series</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Series</key>
-				<dict>
-					<key>Selected</key>
-					<string>Visualization Points Series</string>
-				</dict>
-				<key>Time</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>Number</key>
-						<string>0</string>
-					</dict>
-					<key>Selected</key>
-					<string>points time</string>
-				</dict>
-			</dict>
-			<key>Selection</key>
-			<string>From Series</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Entry from Visualization Points Series</string>
-			<key>VariableType</key>
-			<string>PointCollection3D</string>
-		</dict>
-		<dict>
-			<key>VariableName</key>
-			<string>DACollapser - 12 - Closed</string>
+			<string>DACollapser - 8 - Closed</string>
 			<key>VariableType</key>
 			<string>CollapserClose</string>
 		</dict>
@@ -1011,7 +736,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Parameters</string>
 			<key>VariableName</key>
@@ -1048,7 +773,7 @@
 			<key>Content</key>
 			<dict>
 				<key>Formula</key>
-				<string>10</string>
+				<string>1</string>
 				<key>Variables</key>
 				<array/>
 			</dict>
@@ -1056,23 +781,6 @@
 			<string>Expression</string>
 			<key>VariableName</key>
 			<string>Window size</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Formula</key>
-				<string>0.1</string>
-				<key>Variables</key>
-				<array/>
-			</dict>
-			<key>Selection</key>
-			<string>Expression</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>dt old</string>
 			<key>VariableType</key>
 			<string>Real Number</string>
 		</dict>
@@ -1138,31 +846,6 @@
 			<string>Real Number</string>
 		</dict>
 		<dict>
-			<key>ScriptName</key>
-			<string>Text-5.rtfd</string>
-			<key>TextHeight</key>
-			<real>28</real>
-			<key>VariableName</key>
-			<string>DAText - 6</string>
-			<key>VariableType</key>
-			<string>Text</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Formula</key>
-				<string>50</string>
-				<key>Variables</key>
-				<array/>
-			</dict>
-			<key>Selection</key>
-			<string>Expression</string>
-			<key>VariableName</key>
-			<string>Interaction Distance</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
 			<key>VariableName</key>
 			<string>DACollapser - 6 - Closed</string>
 			<key>VariableType</key>
@@ -1186,68 +869,13 @@
 		</dict>
 		<dict>
 			<key>ScriptName</key>
-			<string>Text-1.rtfd</string>
+			<string>Text-7.rtfd</string>
 			<key>TextHeight</key>
 			<real>28</real>
 			<key>VariableName</key>
 			<string>DAText - 1</string>
 			<key>VariableType</key>
 			<string>Text</string>
-		</dict>
-		<dict>
-			<key>Comment</key>
-			<string>Here, convert to a 3d point set - modify as needed you only want a subset of points</string>
-			<key>VariableName</key>
-			<string>DAComment - 3</string>
-			<key>VariableType</key>
-			<string>Comment</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Information</key>
-				<array>
-					<dict>
-						<key>Input</key>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>3D Path</string>
-								<key>Type</key>
-								<string>Path3D</string>
-							</dict>
-						</array>
-						<key>Name</key>
-						<string>3D Point Collection</string>
-					</dict>
-				</array>
-				<key>OutputVariable</key>
-				<string>3D Point Collection</string>
-				<key>Script</key>
-				<string>path to points</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Name</key>
-						<string>3D Path</string>
-						<key>Type</key>
-						<string>Path3D</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>Var series</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>Script On Series</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>3D Point Series from series</string>
-			<key>VariableType</key>
-			<string>Series</string>
 		</dict>
 		<dict>
 			<key>Content</key>
@@ -1266,34 +894,6 @@
 			<string>Current Points Time</string>
 			<key>VariableType</key>
 			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Series</key>
-				<dict>
-					<key>Selected</key>
-					<string>3D Point Series from series</string>
-				</dict>
-				<key>Time</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>Number</key>
-						<string>0</string>
-					</dict>
-					<key>Selected</key>
-					<string>Current Points Time</string>
-				</dict>
-			</dict>
-			<key>Selection</key>
-			<string>From Series</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Entry from 3D Point Series from series</string>
-			<key>VariableType</key>
-			<string>PointCollection3D</string>
 		</dict>
 		<dict>
 			<key>Content</key>
@@ -1684,7 +1284,7 @@
 						<key>Var</key>
 						<dict>
 							<key>Selected</key>
-							<string>3D Point Series from series</string>
+							<string>3D Point series from time value</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1731,8 +1331,6 @@
 			</dict>
 			<key>Selection</key>
 			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
 			<key>VariableName</key>
 			<string>Network Adjacency</string>
 			<key>VariableType</key>
@@ -1746,7 +1344,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Open</string>
+			<string>Closed</string>
 			<key>Title</key>
 			<string>Community Detection</string>
 			<key>VariableName</key>
@@ -1897,537 +1495,9 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
-			<key>Title</key>
-			<string>Metrics</string>
-			<key>VariableName</key>
-			<string>DACollapser - 8</string>
-			<key>VariableType</key>
-			<string>CollapserOpen</string>
-		</dict>
-		<dict>
-			<key>State</key>
 			<string>Open</string>
 			<key>Title</key>
-			<string>Position based</string>
-			<key>VariableName</key>
-			<string>DACollapser - 9</string>
-			<key>VariableType</key>
-			<string>CollapserOpen</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/Mixing</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>Mixing/Mixing.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>dist</string>
-						<key>Number Type</key>
-						<integer>0</integer>
-						<key>Type</key>
-						<string>Real Number</string>
-						<key>Var</key>
-						<dict>
-							<key>Inline</key>
-							<dict>
-								<key>Number</key>
-								<string>5e-8</string>
-							</dict>
-							<key>Selected</key>
-							<string>Interaction Distance</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>points_series</string>
-						<key>SeriesType</key>
-						<string>PointCollection3D</string>
-						<key>Type</key>
-						<string>Series</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>3D Point Series from series</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Mixing</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/friendcount_dist_1</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>friendcount_dist_1/friendcount_dist_1.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>dist</string>
-						<key>Number Type</key>
-						<integer>0</integer>
-						<key>Type</key>
-						<string>Real Number</string>
-						<key>Var</key>
-						<dict>
-							<key>Inline</key>
-							<dict>
-								<key>Number</key>
-								<string>5e-8</string>
-							</dict>
-							<key>Selected</key>
-							<string>Interaction Distance</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>points_series</string>
-						<key>SeriesType</key>
-						<string>PointCollection3D</string>
-						<key>Type</key>
-						<string>Series</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>3D Point Series from series</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Average nearby</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/averageinteractiontime_dist</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>averageinteractiontime_dist/averageinteractiontime_dist.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>dist</string>
-						<key>Number Type</key>
-						<integer>0</integer>
-						<key>Type</key>
-						<string>Real Number</string>
-						<key>Var</key>
-						<dict>
-							<key>Inline</key>
-							<dict>
-								<key>Number</key>
-								<string>5e-8</string>
-							</dict>
-							<key>Selected</key>
-							<string>Interaction Distance</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>points_series</string>
-						<key>SeriesType</key>
-						<string>PointCollection3D</string>
-						<key>Type</key>
-						<string>Series</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>3D Point Series from series</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Average interaction time</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/time_between_meetings</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>time_between_meetings/time_between_meetings.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>dist</string>
-						<key>Number Type</key>
-						<integer>0</integer>
-						<key>Type</key>
-						<string>Real Number</string>
-						<key>Var</key>
-						<dict>
-							<key>Inline</key>
-							<dict>
-								<key>Number</key>
-								<string>5e-8</string>
-							</dict>
-							<key>Selected</key>
-							<string>Interaction Distance</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>points_series</string>
-						<key>SeriesType</key>
-						<string>PointCollection3D</string>
-						<key>Type</key>
-						<string>Series</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>3D Point Series from series</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Average interaction waiting time</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>VariableName</key>
-			<string>DACollapser - 9 - Closed</string>
-			<key>VariableType</key>
-			<string>CollapserClose</string>
-		</dict>
-		<dict>
-			<key>State</key>
-			<string>Open</string>
-			<key>Title</key>
-			<string>Community based</string>
-			<key>VariableName</key>
-			<string>DACollapser - 10</string>
-			<key>VariableType</key>
-			<string>CollapserOpen</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/mixing_network_1</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>mixing_network_1/mixing_network_1.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>clusters</string>
-						<key>Type</key>
-						<string>Array</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>Partition</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Network Mixing</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/friends_network</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>friends_network/friends_network.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>clusters</string>
-						<key>Type</key>
-						<string>Array</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>Partition</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Average in community</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/interaction_duration_network</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>interaction_duration_network/interaction_duration_network.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>clusters</string>
-						<key>Type</key>
-						<string>Array</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>Partition</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Network Interaction Duration</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>Application</key>
-				<string>$BUILD/Release/waiting_time_network</string>
-				<key>Argument</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>String</key>
-						<string></string>
-					</dict>
-					<key>SelectedNumber</key>
-					<integer>0</integer>
-				</dict>
-				<key>Communication</key>
-				<integer>1</integer>
-				<key>Input</key>
-				<string>Input.dtbin</string>
-				<key>Output</key>
-				<string>Output.dtbin</string>
-				<key>Project</key>
-				<string>waiting_time_network/waiting_time_network.xcodeproj</string>
-				<key>Variables</key>
-				<array>
-					<dict>
-						<key>Include</key>
-						<string>On</string>
-						<key>Name</key>
-						<string>clusters</string>
-						<key>Type</key>
-						<string>Array</string>
-						<key>Var</key>
-						<dict>
-							<key>Selected</key>
-							<string>Partition</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>Selection</key>
-			<string>External Program</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Network Interaction Waiting Time</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>VariableName</key>
-			<string>DACollapser - 10 - Closed</string>
-			<key>VariableType</key>
-			<string>CollapserClose</string>
-		</dict>
-		<dict>
-			<key>VariableName</key>
-			<string>DACollapser - 8 - Closed</string>
-			<key>VariableType</key>
-			<string>CollapserClose</string>
-		</dict>
-		<dict>
-			<key>State</key>
-			<string>Open</string>
-			<key>Title</key>
-			<string>Visualization</string>
+			<string>Creating final output</string>
 			<key>VariableName</key>
 			<string>DACollapser - 11</string>
 			<key>VariableType</key>
@@ -2444,21 +1514,6 @@
 		<dict>
 			<key>Content</key>
 			<dict>
-				<key>Formula</key>
-				<string>12</string>
-				<key>Variables</key>
-				<array/>
-			</dict>
-			<key>Selection</key>
-			<string>Expression</string>
-			<key>VariableName</key>
-			<string>Visualization Run</string>
-			<key>VariableType</key>
-			<string>Real Number</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
 				<key>Variable</key>
 				<dict>
 					<key>Selected</key>
@@ -2467,8 +1522,6 @@
 			</dict>
 			<key>Selection</key>
 			<string>Time From Variable</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
 			<key>VariableName</key>
 			<string>points time</string>
 			<key>VariableType</key>
@@ -2605,8 +1658,6 @@
 			</dict>
 			<key>Selection</key>
 			<string>Expression</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
 			<key>VariableName</key>
 			<string>which bin</string>
 			<key>VariableType</key>
@@ -2615,38 +1666,10 @@
 		<dict>
 			<key>Content</key>
 			<dict>
-				<key>Time</key>
-				<dict>
-					<key>Inline</key>
-					<dict>
-						<key>Number</key>
-						<string>0</string>
-					</dict>
-					<key>Selected</key>
-					<string>Visualization Run</string>
-				</dict>
-				<key>Variable</key>
-				<dict>
-					<key>Selected</key>
-					<string>Partition</string>
-				</dict>
-			</dict>
-			<key>Selection</key>
-			<string>Time Value</string>
-			<key>ToggleOpen</key>
-			<string>YES</string>
-			<key>VariableName</key>
-			<string>Time Value of Partition</string>
-			<key>VariableType</key>
-			<string>Array</string>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
 				<key>Array</key>
 				<dict>
 					<key>Selected</key>
-					<string>Time Value of Partition</string>
+					<string>Partition</string>
 				</dict>
 				<key>Number</key>
 				<dict>
@@ -2673,10 +1696,79 @@
 		<dict>
 			<key>Content</key>
 			<dict>
+				<key>MaximaOrMinima</key>
+				<integer>1</integer>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Current partition</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Maxima or Minima</string>
+			<key>VariableName</key>
+			<string>max of Current partition</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>MaximaOrMinima</key>
+				<integer>0</integer>
+				<key>Variable</key>
+				<dict>
+					<key>Selected</key>
+					<string>Current partition</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Maxima or Minima</string>
+			<key>VariableName</key>
+			<string>min of Current partition</string>
+			<key>VariableType</key>
+			<string>Real Number</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Left</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>0</string>
+					</dict>
+					<key>Selected</key>
+					<string>min of Current partition</string>
+				</dict>
+				<key>Right</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1</string>
+					</dict>
+					<key>Selected</key>
+					<string>max of Current partition</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Left And Right</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Cluster ID Range</string>
+			<key>VariableType</key>
+			<string>Range</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
 				<key>Points</key>
 				<dict>
 					<key>Selected</key>
-					<string>Entry from Visualization Points Series</string>
+					<string>Portion of Points on Var</string>
 				</dict>
 				<key>Values</key>
 				<dict>
@@ -2689,7 +1781,7 @@
 			<key>ToggleOpen</key>
 			<string>YES</string>
 			<key>VariableName</key>
-			<string>3D Point Value Collection</string>
+			<string>Final output - points labeled by cluster</string>
 			<key>VariableType</key>
 			<string>PointValueCollection3D</string>
 		</dict>
@@ -2702,10 +1794,10 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>638</real>
-		<real>73</real>
-		<real>941</real>
-		<real>901</real>
+		<real>190</real>
+		<real>8</real>
+		<real>1229</real>
+		<real>1049</real>
 	</array>
 </dict>
 </plist>
