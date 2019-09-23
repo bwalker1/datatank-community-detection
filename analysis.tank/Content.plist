@@ -68,13 +68,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>-58.710000000000001</real>
+								<real>53.280000000000001</real>
 								<key>MaxValue</key>
 								<real>180</real>
 								<key>MinValue</key>
 								<real>-180</real>
 								<key>String</key>
-								<string>-58.71</string>
+								<string>53.28</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -104,13 +104,13 @@
 							<key>Inline</key>
 							<dict>
 								<key>CurrentValue</key>
-								<real>-4.6909999999999998</real>
+								<real>27.16</real>
 								<key>MaxValue</key>
 								<real>90</real>
 								<key>MinValue</key>
 								<real>-90</real>
 								<key>String</key>
-								<string>-4.691</string>
+								<string>27.16</string>
 							</dict>
 							<key>SelectedNumber</key>
 							<integer>0</integer>
@@ -120,6 +120,60 @@
 			</dict>
 			<key>CommandContents</key>
 			<array>
+				<dict>
+					<key>CommandName</key>
+					<string></string>
+					<key>CommandType</key>
+					<string>Surface</string>
+					<key>Computation</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>Inline</key>
+							<dict>
+								<key>Color</key>
+								<dict>
+									<key>Alpha</key>
+									<real>0.20000000000000001</real>
+									<key>Blue</key>
+									<real>0.28235799</real>
+									<key>Green</key>
+									<real>1</real>
+									<key>Red</key>
+									<real>0.0</real>
+									<key>Space</key>
+									<string>NSCalibratedRGBColorSpace</string>
+								</dict>
+							</dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>Crop</key>
+						<dict>
+							<key>SelectedNumber</key>
+							<integer>0</integer>
+						</dict>
+						<key>CropSwitch</key>
+						<string>On</string>
+						<key>Cull</key>
+						<string>Off</string>
+						<key>Material</key>
+						<integer>0</integer>
+						<key>Maximum</key>
+						<string>10M</string>
+						<key>Surface</key>
+						<dict>
+							<key>Selected</key>
+							<string>Surface from Function on 3D Surface Cropped</string>
+						</dict>
+					</dict>
+					<key>Drawn</key>
+					<string>Include</string>
+					<key>Status</key>
+					<string>Visible</string>
+					<key>ToggleOpen</key>
+					<string>YES</string>
+				</dict>
 				<dict>
 					<key>CommandName</key>
 					<string></string>
@@ -261,12 +315,12 @@
 			<key>ViewSizeSeparated</key>
 			<string></string>
 			<key>Visible</key>
-			<string>NO</string>
+			<string>YES</string>
 			<key>WindowName</key>
-			<string>3D Space (GL)</string>
+			<string>Beads colored by cluster</string>
 			<key>WindowPos</key>
 			<array>
-				<real>1197</real>
+				<real>601</real>
 				<real>55</real>
 				<real>679</real>
 				<real>619</real>
@@ -281,6 +335,7 @@
 		<string>which bin</string>
 		<string>number of bins</string>
 		<string>extract time info</string>
+		<string>Final output - points labeled by cluster</string>
 	</array>
 	<key>Time</key>
 	<dict>
@@ -302,7 +357,7 @@
 		<key>Loop</key>
 		<string>Off</string>
 		<key>TimeHint</key>
-		<real>9</real>
+		<real>2600</real>
 		<key>TimeStep</key>
 		<string>1.0</string>
 		<key>TimeStepSwitch</key>
@@ -484,7 +539,7 @@
 			<key>Content</key>
 			<dict>
 				<key>FileName</key>
-				<string>~/Desktop/Sergio 20190912/Output.dtbin</string>
+				<string>~/Desktop/Sergio 20190918/Output.dtbin</string>
 			</dict>
 			<key>Selection</key>
 			<string>Single File</string>
@@ -497,7 +552,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Processing</string>
 			<key>VariableName</key>
@@ -736,7 +791,7 @@
 		</dict>
 		<dict>
 			<key>State</key>
-			<string>Closed</string>
+			<string>Open</string>
 			<key>Title</key>
 			<string>Parameters</string>
 			<key>VariableName</key>
@@ -765,7 +820,7 @@
 			<key>Selection</key>
 			<string>Expression</string>
 			<key>VariableName</key>
-			<string>Processing Start time</string>
+			<string>Start time</string>
 			<key>VariableType</key>
 			<string>Real Number</string>
 		</dict>
@@ -989,7 +1044,7 @@
 								<string>0</string>
 							</dict>
 							<key>Selected</key>
-							<string>Processing Start time</string>
+							<string>Start time</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1145,7 +1200,7 @@
 								<string>0</string>
 							</dict>
 							<key>Selected</key>
-							<string>Processing Start time</string>
+							<string>Start time</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1571,7 +1626,7 @@
 								<string>0</string>
 							</dict>
 							<key>Selected</key>
-							<string>Processing Start time</string>
+							<string>Start time</string>
 						</dict>
 					</dict>
 					<dict>
@@ -1763,6 +1818,137 @@
 			<string>Range</string>
 		</dict>
 		<dict>
+			<key>State</key>
+			<string>Open</string>
+			<key>Title</key>
+			<string>Drawing utility</string>
+			<key>VariableName</key>
+			<string>DACollapser - 9</string>
+			<key>VariableType</key>
+			<string>CollapserOpen</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Center</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Point</key>
+						<string>0,0,0</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Maximum</key>
+				<string>2M</string>
+				<key>Radius</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>1000</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Segments</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Number</key>
+						<string>30</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Sphere</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>3D Surface</string>
+			<key>VariableType</key>
+			<string>Surface3D</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Function</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Function</key>
+						<string>cos(0.02z)</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Surface</key>
+				<dict>
+					<key>Selected</key>
+					<string>3D Surface</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Values From Function</string>
+			<key>ToggleOpen</key>
+			<string>YES</string>
+			<key>VariableName</key>
+			<string>Function on 3D Surface</string>
+			<key>VariableType</key>
+			<string>Surface3DValues</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Range</key>
+				<dict>
+					<key>Inline</key>
+					<dict>
+						<key>Range</key>
+						<string>0,1</string>
+					</dict>
+					<key>SelectedNumber</key>
+					<integer>0</integer>
+				</dict>
+				<key>Surface</key>
+				<dict>
+					<key>Selected</key>
+					<string>Function on 3D Surface</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>Crop Values</string>
+			<key>VariableName</key>
+			<string>Function on 3D Surface Cropped</string>
+			<key>VariableType</key>
+			<string>Surface3DValues</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>Surface</key>
+				<dict>
+					<key>Selected</key>
+					<string>Function on 3D Surface Cropped</string>
+				</dict>
+			</dict>
+			<key>Selection</key>
+			<string>From Variable</string>
+			<key>VariableName</key>
+			<string>Surface from Function on 3D Surface Cropped</string>
+			<key>VariableType</key>
+			<string>Surface3D</string>
+		</dict>
+		<dict>
+			<key>VariableName</key>
+			<string>DACollapser - 9 - Closed</string>
+			<key>VariableType</key>
+			<string>CollapserClose</string>
+		</dict>
+		<dict>
 			<key>Content</key>
 			<dict>
 				<key>Points</key>
@@ -1794,10 +1980,10 @@
 	</array>
 	<key>WindowPosition</key>
 	<array>
-		<real>190</real>
-		<real>8</real>
-		<real>1229</real>
-		<real>1049</real>
+		<real>188</real>
+		<real>5</real>
+		<real>941</real>
+		<real>773</real>
 	</array>
 </dict>
 </plist>
